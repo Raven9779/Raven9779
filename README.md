@@ -17,7 +17,7 @@
 
 <br/>
 
-<!-- Tech Stack Icons - Larger & Animated -->
+<!-- Tech Stack Icons -->
 <div align="center">
   <picture pointer-events: none>
     <img height="35" src="https://skillicons.dev/icons?i=react,vue,nextjs,ts,tailwind,nodejs,docker,aws,ethereum,solidity&theme=dark&perline=10" />
@@ -33,26 +33,25 @@
   </picture>
 </p>
 
-<!-- Terminal Style Code Block -->
+<!-- Terminal Code Block -->
 <div align="center">
 
 ```javascript
 ╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║    ██████╗ ███████╗███╗   ██╗███████╗███████╗ ██████╗ █████╗   ║
-║   ██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔════╝██╔═══██╗██╔══██╗  ║
-║   ██║  ███╗█████╗  ██╔██╗ ██║█████╗  ███████╗██║   ██║███████║  ║
-║   ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝  ╚════██║██║   ██║██╔══██║  ║
-║   ╚██████╔╝███████╗██║ ╚████║███████╗███████║╚██████╔╝██║  ██║  ║
-║    ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝  ║
-║                                                                  ║
-║   > const engineer = {                                            ║
-║   >   role: "Frontend + Web3 Developer",                          ║
-║   >   stack: ["React", "Vue", "Node", "Solidity"],               ║
-║   >   passion: "Building the decentralized future"              ║
-║   > };                                                            ║
-║                                                                  ║
+║  ┌┬┐┌─┐┌┬┐  ╔═╗┌─┐┬ ┬┌─┐  ┌┬┐┌─┐  ╔═╗┌─┐┌┬┐┌─┐┌┬┐┬ ┬┬┌┬┐┌─┐  ║
+║  │││├┤  │││  ╚═╗├─┘└┬┘├─┘  │││├┤   ╚═╗│ ││ │ ││││ │ ││ │ │  ║
+║  ┴ ┴└─┘─┴┘┘  ╚═╝┴   ┴ └─┘  ┴ ┴└─┘  ╚═╝└─┘┴ ┴ └─┘┴ ┴└─┘┴┘ └─┘  ║
 ╚══════════════════════════════════════════════════════════════════╝
+
+> const engineer = {
+>   name: "Raven",
+>   role: "Frontend + Web3 Developer",
+>   stack: ["React", "Vue", "Node", "Solidity"],
+>   passion: "Building the decentralized future"
+> };
+
+> console.log(engineer.role);
+<- "Crafting digital experiences since 2024"
 ```
 
 </div>
@@ -78,7 +77,7 @@
 
 <div align="center">
 
-<!-- Animated Tech Stack Grid -->
+<!-- Tech Stack Grid -->
 <table align="center">
 <tr>
   <td align="center">
@@ -154,7 +153,6 @@
   </picture>
 </p>
 
-<!-- Animated Divider -->
 <picture pointer-events: none>
   <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60" />
 </picture>
@@ -188,67 +186,26 @@
 
 ---
 
-## 🎯 Current Focus
-
-<div align="left">
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-contract Web3Mission {
-    string public mission = "Bridge Web2 and Web3 seamlessly";
-    bool public building = true;
-    uint256 public dedication = type(uint256).max;
-    
-    function getCurrentFocus() external pure returns (string memory) {
-        return "Building dApp interfaces that actually work";
-    }
-    
-    function getStatus() external pure returns (string memory) {
-        return "Shipping code, shipping value 🚀";
-    }
-}
-```
-
-</div>
-
----
-
-## 💡 Dev Philosophy
+## ⌨️ Terminal
 
 <div align="center">
 
-<table align="center">
-<tr>
-  <td width="50%" valign="top">
+```bash
+$ raven --stats
 
-```typescript
-const principles = {
-  codeQuality: "Clean > Clever",
-  approach: "Build → Measure → Learn",
-  security: "Non-negotiable",
-  ux: "If it's not smooth, it's broken",
-  blockchain: "Power to the people"
-};
+  ██████╗ ██████╗ ███████╗███╗   ██╗███████╗███████╗ ██████╗ █████╗
+ ██╔════╝██╔═══██╗██╔════╝████╗  ██║██╔════╝██╔════╝██╔═══██╗██╔══██╗
+ ██║     ██║   ██║█████╗  ██╔██╗ ██║█████╗  ███████╗██║   ██║███████║
+ ██║     ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝  ╚════██║██║   ██║██╔══██║
+ ╚██████╗╚██████╔╝███████╗██║ ╚████║███████╗███████║╚██████╔╝██║  ██║
+  ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+
+  📅  Active since: 2024
+  💻  Total Commits: loading...
+  🏆  Repositories: 5
+  ⭐  Stars: loading...
+  🐍  Snake commits: active
 ```
-
-  </td>
-  <td width="50%" valign="top">
-
-```typescript
-const values: string[] = [
-  "🎨  code as art",
-  "🔒  security first",
-  "⚡  performance matters",
-  "🌍  decentralization empowers",
-  "🤝  community over ego"
-];
-```
-
-  </td>
-</tr>
-</table>
 
 </div>
 
@@ -266,7 +223,7 @@ const values: string[] = [
 
 ---
 
-## 🚀 Future Roadmap
+## 🔮 Crystal Ball
 
 <div align="center">
 
@@ -280,16 +237,25 @@ const values: string[] = [
   <td width="55%">
 
 ```javascript
-const roadmap = [
-  "🚀 Ship more dApps to production",
-  "📚 Contribute to Web3 OSS",
-  "🎤 Maybe speak at a conference",
-  "🏗️ Build tools for fellow developers",
-  "🌟 Help onboard newcomers to Web3",
-  "💪 Never stop learning"
-];
+// The future is being written, one commit at a time
 
-roadmap.forEach(goal => achieve(goal));
+async function nextChapter() {
+  const dreams = [
+    "🚀 Ship a protocol that goes viral",
+    "📚 Open source a toolkit loved by devs",
+    "🎤 Speak at a Web3 conference",
+    "🌍 Help onboard 10,000+ to decentralized web",
+    "💡 Build tools that make others' lives easier",
+    "🌙 Leave my mark on the blockchain"
+  ];
+
+  for (const dream of dreams) {
+    await workHard(dream);
+    if (achieved(dream)) celebrate(dream);
+  }
+
+  return "Making history on-chain 🏄";
+}
 ```
 
   </td>
@@ -302,7 +268,6 @@ roadmap.forEach(goal => achieve(goal));
 
 <div align="center">
 
-<!-- Thanks Section -->
 <picture pointer-events: none>
   <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="120" />
 </picture>
@@ -318,7 +283,6 @@ let's make something interesting together! 🤝
 
 <br/>
 
-<!-- Final Status Badges -->
 <table align="center">
 <tr>
   <td><strong>⚡ Focus</strong><br/><em>Frontend + Web3</em></td>
