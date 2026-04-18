@@ -253,3 +253,17 @@ const currentFocus = [
 </picture>
 
 </div>
+
+---
+
+## 🎮 Play My Game
+
+<p align="center">
+  <a href="https://raven9779.github.io/arcade/" target="_blank">
+    <img src="https://img.shields.io/badge/Play%20Now-Space%20Shooter-f59e0b?style=for-the-badge&logo=gamepad&logoColor=000&labelColor=0d1117" />
+  </a>
+</p>
+
+<p align="center">
+  <em>🕹️ Built with pure HTML5 Canvas — no frameworks, just skills</em>
+</p>
