@@ -1,117 +1,98 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=220&section=header&animation=twinkling&fontAlignY=32" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=240&section=header&animation=twinkling&fontAlignY=32" alt="Header banner" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=22&duration=2200&pause=900&color=f59e0b&center=true&vCenter=true&width=900&height=70&lines=INSERT+COIN+%2F%2F+RAVEN9779;PRESS+START+TO+LOAD+PROFILE" alt="Boot screen title" />
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2600&pause=1200&color=a78bfa&center=true&vCenter=true&width=900&height=72&lines=FULL-STACK+%2F%2F+WEB3+%2F%2F+INTERACTION;SYSTEM+BOOTING...+EXPERIENCE+x+SYSTEMS" alt="System typing status" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=2800&pause=1100&color=f59e0b&center=true&vCenter=true&width=960&height=72&lines=RAVEN9779+%2F%2F+FULL-STACK+SYSTEMS;WEB3+PRODUCTS+%2F%2F+INTERACTION+DESIGN" alt="Hero typing title" />
 
   <h1>把复杂系统，做成直觉可用的体验</h1>
+  <p><strong>全栈开发者 / Web3 工程实践者 / 交互体验构建者</strong></p>
 
   <p>
-    <a href="https://github.com/Raven9779/Raven9779">
-      <img src="https://img.shields.io/badge/PRESS_START-f59e0b?style=for-the-badge&labelColor=0d1117" />
-    </a>
     <a href="https://github.com/Raven9779">
-      <img src="https://img.shields.io/badge/LOAD_PROFILE-a78bfa?style=for-the-badge&labelColor=0d1117" />
+      <img src="https://img.shields.io/badge/OPEN_GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=fff&labelColor=f59e0b" alt="Open GitHub profile" />
     </a>
-    <img src="https://img.shields.io/badge/SYSTEM_ONLINE-f472b6?style=for-the-badge&labelColor=0d1117" />
-  </p>
-
-  <p>
-    <img height="44" src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,nodejs,solidity,docker,aws&theme=dark&perline=8" />
-  </p>
-</div>
-
----
-
-## PLAYER CARD
-
-<div align="center">
-  <img src="https://img.shields.io/badge/PLAYER_01-RAVEN9779-f59e0b?style=for-the-badge&labelColor=0d1117" />
-
-  <p>
-    <img src="https://img.shields.io/badge/FULL_STACK-181717?style=for-the-badge&logo=github&logoColor=fff" />
-    <img src="https://img.shields.io/badge/WEB3_BUILDER-f59e0b?style=for-the-badge&logo=ethereum&logoColor=000" />
-    <img src="https://img.shields.io/badge/INTERACTION_SYSTEMS-a78bfa?style=for-the-badge&logo=storybook&logoColor=fff" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/ACTIVE-0d1117?style=for-the-badge&labelColor=f472b6" />
-    <img src="https://img.shields.io/badge/BUILDING-0d1117?style=for-the-badge&labelColor=f59e0b" />
-    <img src="https://img.shields.io/badge/SYSTEM_ONLINE-0d1117?style=for-the-badge&labelColor=a78bfa" />
-  </p>
-
-  <p><strong>全栈开发者 / Web3 工程实践者 / 交互系统构建者</strong></p>
-</div>
-
----
-
-## MISSION SELECT
-
-<div align="center">
-  <h3>01 // RAVEN9779-GAME</h3>
-  <p>
-    <img src="https://img.shields.io/badge/PLAYABLE-f59e0b?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/GAME_FEEL-f472b6?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/FRONTEND-a78bfa?style=for-the-badge&labelColor=0d1117" />
-  </p>
-  <p>
-    <a href="https://raven9779.github.io/arcade">
-      <img src="https://img.shields.io/badge/PREVIEW-181717?style=for-the-badge&logo=githubpages&logoColor=fff" />
-    </a>
-  </p>
-
-  <h3>02 // RAVEN9779.GITHUB.IO</h3>
-  <p>
-    <img src="https://img.shields.io/badge/LIVE-f59e0b?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/UI-f472b6?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/BRAND-a78bfa?style=for-the-badge&labelColor=0d1117" />
-  </p>
-  <p>
-    <a href="https://raven9779.github.io/">
-      <img src="https://img.shields.io/badge/ENTER-181717?style=for-the-badge&logo=githubpages&logoColor=fff" />
-    </a>
-  </p>
-
-  <h3>03 // PROFILE README</h3>
-  <p>
-    <img src="https://img.shields.io/badge/CYBER-f59e0b?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/README-f472b6?style=for-the-badge&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/DESIGN-a78bfa?style=for-the-badge&labelColor=0d1117" />
-  </p>
-  <p>
     <a href="https://github.com/Raven9779/Raven9779">
-      <img src="https://img.shields.io/badge/REPO-181717?style=for-the-badge&logo=github&logoColor=fff" />
+      <img src="https://img.shields.io/badge/PROFILE_SOURCE-0d1117?style=for-the-badge&logo=github&logoColor=fff&labelColor=a78bfa" alt="Profile source repository" />
+    </a>
+    <a href="https://raven9779.github.io/">
+      <img src="https://img.shields.io/badge/ENTER_SITE-0d1117?style=for-the-badge&logo=githubpages&logoColor=fff&labelColor=f472b6" alt="Enter personal site" />
     </a>
   </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/SYSTEM-ONLINE-111827?style=flat-square&labelColor=111827&color=f59e0b" alt="System online" />
+    <img src="https://img.shields.io/badge/FOCUS-INTERACTION-111827?style=flat-square&labelColor=111827&color=a78bfa" alt="Focus interaction" />
+    <img src="https://img.shields.io/badge/MODE-CYBER_NATIVE-111827?style=flat-square&labelColor=111827&color=f472b6" alt="Cyber native mode" />
+  </p>
+
+  <p>
+    <img height="44" src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,nodejs,solidity,docker,aws&theme=dark&perline=8" alt="Skill icons" />
+  </p>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=1000&color=a78bfa&center=true&vCenter=true&width=960&height=48&lines=BUILDING+PRODUCTS+THAT+FEEL+FAST%2C+CLEAR%2C+ALIVE;FROM+UI+SURFACES+TO+ONCHAIN+SYSTEMS" alt="Signal typing status" />
 </div>
+
+---
+
+## PROFILE // SIGNAL
+
+<div align="center">
+  <sub>设计不是堆信息，而是让系统一眼就能被理解。</sub>
+</div>
+
+```text
+RAVEN9779
+├─ 全栈产品工程
+├─ Web3 工程实践
+└─ 交互体验与系统表达
+```
+
+---
+
+## SELECTED WORLDS
+
+### 01 / RAVEN ARCADE
+更偏游戏感的前端实验，强调动效、反馈和可进入性。
+
+<a href="https://raven9779.github.io/arcade">
+  <img src="https://img.shields.io/badge/PREVIEW_ARCADE-f59e0b?style=for-the-badge&logo=githubpages&logoColor=000&labelColor=0d1117" alt="Preview Raven Arcade" />
+</a>
+
+### 02 / RAVEN9779.GITHUB.IO
+个人站点主界面，承载品牌气质、界面节奏和展示表达。
+
+<a href="https://raven9779.github.io/">
+  <img src="https://img.shields.io/badge/ENTER_WEBSITE-a78bfa?style=for-the-badge&logo=githubpages&logoColor=fff&labelColor=0d1117" alt="Enter website" />
+</a>
+
+### 03 / PROFILE README
+把 GitHub 首页做成可感知的作品入口，而不是简历页。
+
+<a href="https://github.com/Raven9779/Raven9779">
+  <img src="https://img.shields.io/badge/VIEW_SOURCE-f472b6?style=for-the-badge&logo=github&logoColor=fff&labelColor=0d1117" alt="View profile source" />
+</a>
 
 ---
 
 ## BONUS STAGE
 
 <div align="center">
-  <img src="https://img.shields.io/badge/BONUS_STAGE-f59e0b?style=for-the-badge&labelColor=0d1117" />
+  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/main/game-preview.gif" width="640" alt="Raven Arcade Preview" />
 
-  <p>
-    <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/main/game-preview.gif" width="520" alt="Raven Arcade Preview" />
-  </p>
+  <br/><br/>
 
-  <p>
-    <a href="https://raven9779.github.io/arcade">
-      <img src="https://img.shields.io/badge/PLAY_NOW-f59e0b?style=for-the-badge&logo=githubpages&logoColor=000&labelColor=0d1117" />
-    </a>
-  </p>
+  <a href="https://raven9779.github.io/arcade">
+    <img src="https://img.shields.io/badge/PLAY_NOW-f59e0b?style=for-the-badge&logo=githubpages&logoColor=000&labelColor=0d1117" alt="Play now" />
+  </a>
 </div>
 
 ---
 
 <div align="center">
   <a href="https://github.com/Raven9779">
-    <img src="https://img.shields.io/badge/FOLLOW_SYSTEM-181717?style=for-the-badge&logo=github&logoColor=fff" />
+    <img src="https://img.shields.io/badge/FOLLOW_RAVEN-0d1117?style=for-the-badge&logo=github&logoColor=fff&labelColor=a78bfa" alt="Follow Raven" />
   </a>
 </div>
 
-<picture pointer-events: none>
+<picture>
   <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" width="100%" alt="Snake animation" />
 </picture>
