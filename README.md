@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Animated Header Wave -->
+<!-- Waving Header -->
 <picture pointer-events: none>
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=180&section=header&animation=twinkling&fontAlignY=32" />
 </picture>
@@ -56,33 +56,77 @@
 
 ---
 
-## ⚡ Power Mode
+## 🎮 ARCADE MODE
 
 <div align="center">
 
+```bash
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ███████╗██╗  ██╗██╗██╗     ██████╗     ██████╗ ██╗   ██╗███████╗  ║
+║   ██╔════╝██║ ██╔╝██║██║     ╚════██╗    ██╔══██╗██║   ██║██╔════╝  ║
+║   █████╗  █████╔╝ ██║██║      █████╔╝    ██████╔╝██║   ██║█████╗    ║
+║   ██╔══╝  ██╔═██╗ ██║██║      ╚═══██╗    ██╔══██╗╚██╗ ██╔╝██╔══╝    ║
+║   ███████╗██║  ██╗██║███████╗███████╗    ██║  ██║ ╚████╔╝ ███████╗  ║
+║   ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝    ╚═╝  ╚═╝  ╚═══╝  ╚══════╝  ║
+║                                                                      ║
+║   >> GAME LOADED                                                     ║
+║   >> LEVEL: ████████████░░░░ 80%                                     ║
+║   >> HIGH SCORE: 99999                                               ║
+║   >> STATUS: PLAYER_ONE_DETECTED                                     ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<pre align="center" style="color: #f59e0b; font-family: monospace; font-size: 10px;">
+    ★       ◇       ★       ◇       ★       ◇       ★
+         🎮  RAVEN ARCADE  🎮
+    ◇       ★       ◇       ★       ◇       ★       ◇
+    
+    ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗
+    ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║
+    ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝
+      ▲       ▲       ▲       ▲       ▲       ▲
+    
+    ═══════════════════════════════════════════════
+                    ▲
+                   ╱╲
+                  ╱  ╲    <-- YOU
+                 ╱────╲
+    
+    💫 PRESS START TO PLAY 💫
+</pre>
+
+<br/>
+
+<picture pointer-events: none>
+  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/main/game-preview.gif" width="500" />
+</picture>
+
+<br/>
+
+### 🚀 **[PLAY NOW: https://raven9779.github.io/arcade](https://raven9779.github.io/arcade)**
+
+<br/>
+
 ```javascript
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║   ███████╗██╗   ██╗███╗   ███╗    ████████╗██╗  ██╗███████╗               ║
-║   ██╔════╝██║   ██║████╗ ████║    ╚══██╔══╝██║  ██║██╔════╝               ║
-║   ███████╗██║   ██║██╔████╔██║       ██║   ███████║█████╗                 ║
-║   ╚════██║██║   ██║██║╚██╔╝██║       ██║   ██╔══██║██╔══╝                 ║
-║   ███████║╚██████╔╝██║ ╚═╝ ██║       ██║   ██║  ██║███████╗               ║
-║   ╚══════╝ ╚═════╝ ╚═╝     ╚═╝       ╚═╝   ╚═╝  ╚═╝╚══════╝               ║
-║                                                                           ║
-║   > LOADING NEURAL INTERFACE...                                          ║
-║   > ESTABLISHING BLOCKCHAIN CONNECTION...                                ║
-║   > SYSTEM: ONLINE                                                       ║
-║   > STATUS: COMPOSING DIGITAL MASTERPIECES                               ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
+// Game stats
+const myArcade = {
+  game: "Space Shooter",
+  controls: "← → or A/D + SPACE",
+  status: "online",
+  players: "waiting for you...",
+  difficulty: "adaptive"
+};
 ```
 
 </div>
 
 ---
 
-## 🎛️ Tech Stack
+## ⚡ Tech Stack
 
 <div align="center">
 
@@ -253,17 +297,3 @@ const currentFocus = [
 </picture>
 
 </div>
-
----
-
-## 🎮 Play My Game
-
-<p align="center">
-  <a href="https://raven9779.github.io/arcade/" target="_blank">
-    <img src="https://img.shields.io/badge/Play%20Now-Space%20Shooter-f59e0b?style=for-the-badge&logo=gamepad&logoColor=000&labelColor=0d1117" />
-  </a>
-</p>
-
-<p align="center">
-  <em>🕹️ Built with pure HTML5 Canvas — no frameworks, just skills</em>
-</p>
