@@ -1,78 +1,164 @@
 <div align="center">
 
-<!-- Terminal Wave Animation -->
+<!-- Waving Header -->
 <picture pointer-events: none>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,30,50,80,60,40&height=180&section=header&animation=typing&fontAlignY=32" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=180&section=header&animation=twinkling&fontAlignY=32" />
 </picture>
 
-<!-- Terminal Style Header -->
-<pre align="center">
- ╔══════════════════════════════════════════════════════════╗
- ║  > whoami                                             ║
- ║  > Raven — Frontend Engineer                           ║
- ║  > Building at the intersection of web & blockchain    ║
- ╚══════════════════════════════════════════════════════════╝
-</pre>
+<!-- Animated Typing Title -->
+<picture pointer-events: none>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3500&pause=1000&color=f59e0b&center=true&vCenter=true&width=600&height=80&lines=Raven.+;Frontend+Engineer+%7C+Web3+Builder" alt="Typing" />
+</picture>
+
+<!-- Subtitle Animation -->
+<picture pointer-events: none>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2000&pause=800&color=a78bfa&center=true&vCenter=true&multiline=true&width=700&height=60&lines=Crafting+seamless+interfaces+for+the+decentralized+web;Building+dApps+that+bridge+Web2+and+Web3" />
+</picture>
 
 <br/>
 
-<!-- Tech Stack with Custom Icons -->
+<!-- Tech Stack Icons - Larger & Animated -->
 <div align="center">
   <picture pointer-events: none>
-    <img src="https://skillicons.dev/icons?i=react,vue,nextjs,ts,tailwind,nodejs,aws,docker&theme=dark&perline=8" />
+    <img height="35" src="https://skillicons.dev/icons?i=react,vue,nextjs,ts,tailwind,nodejs,docker,aws,ethereum,solidity&theme=dark&perline=10" />
   </picture>
 </div>
 
-<br/>
-
-<!-- Dynamic Status Bar -->
+<!-- Status Badges -->
 <p align="center">
   <picture pointer-events: none>
-    <img src="https://img.shields.io/badge/-Building%20Web3%20Projects-f59e0b?style=for-the-badge&logo=ethereum&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/-Open%20to%20Collaborate-a78bfa?style=for-the-badge&logo=github&logoColor=fff&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Status-Building%20in%20Public-f59e0b?style=for-the-badge&logo=fire&logoColor=fff&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Focus-Web3%20Frontend-a78bfa?style=for-the-badge&logo=ethereum&logoColor=fff&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Open-Source%20Projects-22c55e?style=for-the-badge&logo=open-source-initiative&logoColor=fff&labelColor=0d1117" />
   </picture>
 </p>
 
-<!-- Code Block - Project Showcase -->
+<!-- Terminal Style Code Block -->
 <div align="center">
 
 ```javascript
-// 🚀 Current Projects
-const projects = [
-  { 
-    name: "blog-frontend", 
-    desc: "Personal blog frontend",
-    tech: "Next.js + Tailwind",
-    status: "active"
-  },
-  { 
-    name: "blog-backend", 
-    desc: "Blog API server", 
-    tech: "Node.js + Express",
-    status: "maintained"
-  },
-  {
-    name: "Raven9779.github.io",
-    desc: "This very profile",
-    tech: "Hexo + Redefine",
-    status: "building"
-  }
-];
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║    ██████╗ ███████╗███╗   ██╗███████╗███████╗ ██████╗ █████╗   ║
+║   ██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔════╝██╔═══██╗██╔══██╗  ║
+║   ██║  ███╗█████╗  ██╔██╗ ██║█████╗  ███████╗██║   ██║███████║  ║
+║   ██║   ██║██╔══╝  ██║╚██╗██║██╔══╝  ╚════██║██║   ██║██╔══██║  ║
+║   ╚██████╔╝███████╗██║ ╚████║███████╗███████║╚██████╔╝██║  ██║  ║
+║    ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝  ║
+║                                                                  ║
+║   > const engineer = {                                            ║
+║   >   role: "Frontend + Web3 Developer",                          ║
+║   >   stack: ["React", "Vue", "Node", "Solidity"],               ║
+║   >   passion: "Building the decentralized future"              ║
+║   > };                                                            ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
-<!-- Connect -->
+<!-- Social Links -->
 <p align="center">
   <a href="https://github.com/Raven9779"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff&labelColor=0d1117" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-f59e0b?style=for-the-badge&logo=gmail&logoColor=fff&labelColor=0d1117" /></a>
 </p>
 
 </div>
 
+<!-- Snake Animation -->
 <div align="center">
   <picture pointer-events: none>
-    <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" height="150" alt="Snake Animation" />
+    <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" height="150" alt="Snake" />
   </picture>
+</div>
+
+---
+
+## ⚡ Tech Arsenal
+
+<div align="center">
+
+<!-- Animated Tech Stack Grid -->
+<table align="center">
+<tr>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>React</strong>
+    <br><em>Component architecture</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/vue-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Vue.js</strong>
+    <br><em>Progressive framework</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/nextjs-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Next.js</strong>
+    <br><em>Full-stack React</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>TypeScript</strong>
+    <br><em>Type safety</em>
+  </td>
+</tr>
+<tr>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/nodejs-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Node.js</strong>
+    <br><em>Server runtime</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Solidity</strong>
+    <br><em>Smart contracts</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Tailwind</strong>
+    <br><em>Utility CSS</em>
+  </td>
+  <td align="center">
+    <picture pointer-events: none>
+      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="70" height="70" />
+    </picture>
+    <br><strong>Docker</strong>
+    <br><em>Containerization</em>
+  </td>
+</tr>
+</table>
+
+<br/>
+
+<!-- Web3 Badges -->
+<p align="center">
+  <picture pointer-events: none>
+    <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=fff&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=fff&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=000&labelColor=0d1117" />
+    <img src="https://img.shields.io/badge/Wagmi-1C1C1C?style=for-the-badge&logo=web3.js&logoColor=fff&labelColor=0d1117" />
+  </picture>
+</p>
+
+<!-- Animated Divider -->
+<picture pointer-events: none>
+  <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60" />
+</picture>
+
 </div>
 
 ---
@@ -82,97 +168,170 @@ const projects = [
 <div align="center">
 
 <picture pointer-events: none>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&bg_color=0d1117&color=f59e0b&line=f59e0b&point=f59e0b&area=true&hide_border=true&custom_title=My%20Coding%20Journey" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&bg_color=0d1117&color=f59e0b&line=a78bfa&point=f472b6&area=true&hide_border=true&custom_title=My%20Coding%20Journey" width="100%"/>
 </picture>
 
 <br/>
 
 <picture pointer-events: none>
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Raven9779&theme=github_dark&ring=f59e0b&fire=true&cur=4&border=true&border_color=292d3e" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raven9779&theme=github_dark&layout=compact&hide_border=true&title_color=f59e0b&text_color=a78bfa" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=Raven9779&theme=github_dark&ring=f59e0b&fire=true&cur=4&border=true&border_color=292d3e" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raven9779&theme=github_dark&layout=compact&hide_border=true&title_color=a78bfa&text_color=f59e0b" />
+</picture>
+
+<br/>
+
+<picture pointer-events: none>
+  <img src="https://github-readme-streak-stats.demolab.com?user=Raven9779&theme=github-dark&border=f59e0b&ring=a78bfa&fire=true&cur=4" alt="Streak" />
 </picture>
 
 </div>
 
 ---
 
-## 🛠️ Toolbox
-
-<div align="center">
-
-| **Frontend** | **Backend** | **Web3** | **DevOps** |
-|:---:|:---:|:---:|:---:|
-| <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=000" /> | <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=fff" /> | <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=fff" /> | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=fff" /> |
-| <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=fff" /> | <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=fff" /> | <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=fff" /> | <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=fff" /> |
-| <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff" /> | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=fff" /> | <img src="https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3.js&logoColor=fff" /> | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=fff" /> |
-
-</div>
-
----
-
-## 🎧 Currently Building To
-
-<div align="center">
-
-> *"Music + Code = Flow state"*
-
-<p align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&bar_color=f59e0b&bar_background_color=0d1117" />
-</p>
-
-</div>
-
----
-
-## 📝 Writing
-
-<div align="center">
-
-Latest posts from my blog:
-
-- [Hello World](/Raven9779/blog) — Getting started
-- [Style Thoughts](/Raven9779/blog-frontend) — Frontend insights
-- [Life Reflections](/Raven9779/blog) — Learning in progress
-
-</div>
-
----
-
-## 💭 Thinking
+## 🎯 Current Focus
 
 <div align="left">
 
-```typescript
-const philosophy = {
-  code: "Write for humans, not machines",
-  approach: "Ship → Learn → Iterate → Improve",
-  belief: "Web3 is the next evolution of the web",
-  currently: {
-    learning: ["Smart contract security", "System design"],
-    building: ["dApp interfaces", "Developer tools"],
-    exploring: ["DeFi protocols", "Zero knowledge proofs"]
-  }
-};
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Web3Mission {
+    string public mission = "Bridge Web2 and Web3 seamlessly";
+    bool public building = true;
+    uint256 public dedication = type(uint256).max;
+    
+    function getCurrentFocus() external pure returns (string memory) {
+        return "Building dApp interfaces that actually work";
+    }
+    
+    function getStatus() external pure returns (string memory) {
+        return "Shipping code, shipping value 🚀";
+    }
+}
 ```
 
 </div>
 
 ---
 
+## 💡 Dev Philosophy
+
 <div align="center">
 
-### Let's build something cool 🚀
+<table align="center">
+<tr>
+  <td width="50%" valign="top">
 
-<p align="center">
-  <em>If you're working on something interesting in Web3 or frontend, let's chat!</em>
-</p>
+```typescript
+const principles = {
+  codeQuality: "Clean > Clever",
+  approach: "Build → Measure → Learn",
+  security: "Non-negotiable",
+  ux: "If it's not smooth, it's broken",
+  blockchain: "Power to the people"
+};
+```
+
+  </td>
+  <td width="50%" valign="top">
+
+```typescript
+const values: string[] = [
+  "🎨  code as art",
+  "🔒  security first",
+  "⚡  performance matters",
+  "🌍  decentralization empowers",
+  "🤝  community over ego"
+];
+```
+
+  </td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 🎲 Random Wisdom
+
+<div align="center">
+
+<picture pointer-events: none>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&aqua=true" alt="Dev Quote" />
+</picture>
+
+</div>
+
+---
+
+## 🚀 Future Roadmap
+
+<div align="center">
+
+<table align="center">
+<tr>
+  <td width="45%" align="center">
+    <picture pointer-events: none>
+      <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="350" />
+    </picture>
+  </td>
+  <td width="55%">
+
+```javascript
+const roadmap = [
+  "🚀 Ship more dApps to production",
+  "📚 Contribute to Web3 OSS",
+  "🎤 Maybe speak at a conference",
+  "🏗️ Build tools for fellow developers",
+  "🌟 Help onboard newcomers to Web3",
+  "💪 Never stop learning"
+];
+
+roadmap.forEach(goal => achieve(goal));
+```
+
+  </td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- Thanks Section -->
+<picture pointer-events: none>
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="120" />
+</picture>
+
+## ✨ Thanks for visiting! ✨
+
+If you're building in Web3 or just want to connect,<br/>
+let's make something interesting together! 🤝
 
 <br/>
 
-**Built with ❤️ using Markdown + GitHub Actions**
+**Made with ❤️ | Powered by ☕ + Blockchain ⛓️**
+
+<br/>
+
+<!-- Final Status Badges -->
+<table align="center">
+<tr>
+  <td><strong>⚡ Focus</strong><br/><em>Frontend + Web3</em></td>
+  <td><strong>💎 Value</strong><br/><em>Code with purpose</em></td>
+  <td><strong>🔥 Status</strong><br/><em>Always building</em></td>
+  <td><strong>🌙 Vision</strong><br/><em>Decentralize all</em></td>
+</tr>
+</table>
+
+<br/>
 
 <picture pointer-events: none>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,30,50,80,60,40&height=60&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=80&section=footer" />
 </picture>
 
 </div>
