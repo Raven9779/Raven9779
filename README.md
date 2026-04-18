@@ -1,299 +1,92 @@
 <div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=180&section=header&animation=fadeIn&fontAlignY=35" />
 
-<!-- Waving Header -->
-<picture pointer-events: none>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=180&section=header&animation=twinkling&fontAlignY=32" />
-</picture>
+  <h1>把复杂系统，做成直觉可用的体验</h1>
+  <p><strong>全栈开发者 / Web3 工程实践者 / 交互系统构建者</strong></p>
+  <p>关注前端体验、链上交互、系统设计与可感知的工程质量</p>
 
-<!-- Massive ASCII Art -->
-<pre align="center" style="background: linear-gradient(180deg, #f59e0b 0%, #f472b6 50%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: monospace; font-size: 8px; line-height: 1; letter-spacing: 0;">
-██╗   ██╗ ██████╗ ██╗██████╗     ████████╗███████╗██████╗ ███╗   ███╗
-██║   ██║██╔═══██╗██║██╔══██╗    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
-██║   ██║██║   ██║██║██║  ██║       ██║   █████╗  ██████╔╝██╔████╔██║
-╚██╗ ██╔╝██║   ██║██║██║  ██║       ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║
- ╚████╔╝ ╚██████╔╝██║██████╔╝       ██║   ███████╗██║  ██║██║ ╚═╝ ██║
-  ╚═══╝   ╚═════╝ ╚═╝╚═════╝        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
-</pre>
+  <p>
+    <img src="https://img.shields.io/badge/Full%20Stack-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Web3%20Builder-f59e0b?style=for-the-badge&logo=ethereum&logoColor=000" />
+    <img src="https://img.shields.io/badge/Interaction%20Systems-a78bfa?style=for-the-badge&logo=storybook&logoColor=fff" />
+    <img src="https://img.shields.io/badge/Product%20Sense-f472b6?style=for-the-badge&logo=vercel&logoColor=fff" />
+  </p>
 
-<!-- Typing Animation -->
-<picture pointer-events: none>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&duration=4000&pause=1200&color=f59e0b&center=true&vCenter=true&width=650&height=80&lines=Full-Stack+Developer+%7C+Web3+Architect" alt="Typing" />
-</picture>
-
-<!-- Glow Effect Subtitle -->
-<picture pointer-events: none>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2500&pause=800&color=a78bfa&center=true&vCenter=true&multiline=true&width=750&height=60&lines=Building+the+decentralized+future+%F0%9F%9A%80;Where+code+meets+blockchain+%E2%9B%93" />
-</picture>
-
-<br/><br/>
-
-<!-- Animated Tech Icons -->
-<div align="center">
-  <picture pointer-events: none>
-    <img height="40" src="https://skillicons.dev/icons?i=react,vue,nextjs,ts,tailwind,nodejs,ethereum,solidity,docker,aws&theme=dark&perline=10" />
-  </picture>
-</div>
-
-<br/>
-
-<!-- Badges -->
-<p align="center">
-  <picture pointer-events: none>
-    <img src="https://img.shields.io/badge/Web3-Native-f59e0b?style=for-the-badge&logo=ethereum&logoColor=000&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/DeFi-Enthusiast-f472b6?style=for-the-badge&logo=coinbase&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/Smart+Contract-Security-a78bfa?style=for-the-badge&logo=shield&logoColor=fff&labelColor=0d1117" />
-  </picture>
-</p>
-
-</div>
-
-<!-- Snake Animation -->
-<div align="center">
-  <picture pointer-events: none>
-    <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" height="160" alt="Snake" />
-  </picture>
+  <p>
+    <a href="https://github.com/Raven9779">
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff" />
+    </a>
+  </p>
 </div>
 
 ---
 
-## 🎮 ARCADE MODE
+## Identity Panel
 
 <div align="center">
 
-```bash
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   ███████╗██╗  ██╗██╗██╗     ██████╗     ██████╗ ██╗   ██╗███████╗  ║
-║   ██╔════╝██║ ██╔╝██║██║     ╚════██╗    ██╔══██╗██║   ██║██╔════╝  ║
-║   █████╗  █████╔╝ ██║██║      █████╔╝    ██████╔╝██║   ██║█████╗    ║
-║   ██╔══╝  ██╔═██╗ ██║██║      ╚═══██╗    ██╔══██╗╚██╗ ██╔╝██╔══╝    ║
-║   ███████╗██║  ██╗██║███████╗███████╗    ██║  ██║ ╚████╔╝ ███████╗  ║
-║   ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝    ╚═╝  ╚═╝  ╚═══╝  ╚══════╝  ║
-║                                                                      ║
-║   >> GAME LOADED                                                     ║
-║   >> LEVEL: ████████████░░░░ 80%                                     ║
-║   >> HIGH SCORE: 99999                                               ║
-║   >> STATUS: PLAYER_ONE_DETECTED                                     ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
-<br/>
-
-<pre align="center" style="color: #f59e0b; font-family: monospace; font-size: 10px;">
-    ★       ◇       ★       ◇       ★       ◇       ★
-         🎮  RAVEN ARCADE  🎮
-    ◇       ★       ◇       ★       ◇       ★       ◇
-    
-    ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗   ╔═══╗
-    ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║   ║ ▼ ║
-    ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝   ╚═╦═╝
-      ▲       ▲       ▲       ▲       ▲       ▲
-    
-    ═══════════════════════════════════════════════
-                    ▲
-                   ╱╲
-                  ╱  ╲    <-- YOU
-                 ╱────╲
-    
-    💫 PRESS START TO PLAY 💫
-</pre>
-
-<br/>
-
-<picture pointer-events: none>
-  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/main/game-preview.gif" width="500" />
-</picture>
-
-<br/>
-
-### 🚀 **[PLAY NOW: https://raven9779.github.io/arcade](https://raven9779.github.io/arcade)**
-
-<br/>
-
-```javascript
-// Game stats
-const myArcade = {
-  game: "Space Shooter",
-  controls: "← → or A/D + SPACE",
-  status: "online",
-  players: "waiting for you...",
-  difficulty: "adaptive"
-};
-```
+| Module | Content |
+| --- | --- |
+| Who I Am | 用工程思维和产品感把复杂交互做得清晰、可用、可交付。 |
+| Current Focus | 高质量前端交互 · 钱包 / 链上体验 · 全栈系统设计 · 更完整的个人作品 |
+| Operating Style | clarity first · ship fast, refine hard · system thinking · product sense |
+| Status Panel | `STATUS: ACTIVE` · `MODE: BUILDING` · `FOCUS: EXPERIENCE x SYSTEMS` |
 
 </div>
 
 ---
 
-## ⚡ Tech Stack
+## Capability Matrix
 
 <div align="center">
 
-<table align="center">
-<tr>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>React</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/vue-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Vue.js</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/nextjs-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Next.js</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>TypeScript</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/nodejs-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Node.js</strong>
-  </td>
-</tr>
-<tr>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Solidity</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Hardhat</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Tailwind</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>Docker</strong>
-  </td>
-  <td align="center">
-    <picture pointer-events: none>
-      <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="80" height="80" />
-    </picture>
-    <br/><strong>AWS</strong>
-  </td>
-</tr>
-</table>
-
-<br/>
-
-<p align="center">
-  <picture pointer-events: none>
-    <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/Wagmi-1C1C1C?style=for-the-badge&logo=web3.js&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/RainbowKit-FF6B6B?style=for-the-badge&logo=rainbow&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/IPFS-65C2D5?style=for-the-badge&logo=ipfs&logoColor=fff&labelColor=0d1117" />
-    <img src="https://img.shields.io/badge/The%20Graph-372542?style=for-the-badge&logo=thegraph&logoColor=fff&labelColor=0d1117" />
-  </picture>
-</p>
+| Frontend | Backend | Web3 | Engineering |
+| --- | --- | --- | --- |
+| React | Node.js | Solidity | Docker |
+| Next.js | API design | wallet interaction | AWS |
+| TypeScript | data flow | dApp UX | performance |
+| Tailwind | service integration | on-chain product thinking | architecture |
+| interaction systems | delivery | contract-aware UX | shipping |
 
 </div>
 
 ---
 
-## 🎲 Random Energy
+## Selected Work
 
 <div align="center">
 
-<picture pointer-events: none>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true&aqua=true" />
-</picture>
+| Project | Summary | Tags | Entry |
+| --- | --- | --- | --- |
+| Raven9779-game | 一个可玩的赛博街机实验，用互动、反馈和节奏证明前端表现力。 | Frontend · Interaction · Game Feel | [Preview](https://raven9779.github.io/arcade) |
+| Raven9779.github.io | 个人站点与内容展示空间，承接个人风格、页面表达和长期迭代。 | Brand · UI · Delivery | [Live](https://raven9779.github.io/) |
+| Raven9779 | 当前 GitHub Profile 本体，用 README 持续打磨个人展示与工程表达。 | Profile · Design · Iteration | [Repo](https://github.com/Raven9779/Raven9779) |
 
 </div>
 
 ---
 
-## 💫 The Vision
+## Bonus Stage
 
 <div align="center">
+  <p>一个可玩的 side quest，用来表达我对交互、反馈和节奏的偏执。</p>
+  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/main/game-preview.gif" width="520" alt="Raven Arcade Preview" />
 
-```typescript
-// Where frontend meets blockchain
-// Where UX bridges the decentralized world
-
-const vision = {
-  mission: "Make Web3 accessible to everyone",
-  approach: "Beautiful interfaces + robust contracts = adoption",
-  belief: "The next billion users will come through dApps we build",
-  goal: "Push the boundaries of what's possible on-chain"
-};
-
-const currentFocus = [
-  "⚡ Blazing fast dApp UIs",
-  "🔐 Secure smart contract patterns", 
-  "🎨 Seamless wallet experiences",
-  "🌉 Cross-chain bridges",
-  "📱 Mobile-first Web3"
-];
-```
-
+  <p>
+    <a href="https://raven9779.github.io/arcade">
+      <img src="https://img.shields.io/badge/Play%20Now-f59e0b?style=for-the-badge&logo=githubpages&logoColor=000" />
+    </a>
+  </p>
 </div>
 
 ---
 
 <div align="center">
-
-<picture pointer-events: none>
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="140" />
-</picture>
-
-## ✨ The Future is Decentralized ✨
-
-<br/>
-
-**Building the bridge between Web2 & Web3**<br/>
-**One commit at a time.**
-
-<br/>
-
-<a href="https://github.com/Raven9779">
-  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=fff&labelColor=0d1117" />
-</a>
-
-<br/><br/>
-
-<table align="center">
-<tr>
-  <td><strong>⚡</strong></td>
-  <td><strong>🔥</strong></td>
-  <td><strong>💎</strong></td>
-  <td><strong>🌙</strong></td>
-</tr>
-<tr>
-  <td><em>Speed</em></td>
-  <td><em>Passion</em></td>
-  <td><em>Quality</em></td>
-  <td><em>Vision</em></td>
-</tr>
-</table>
-
-<br/>
-
-<picture pointer-events: none>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=80&section=footer" />
-</picture>
-
+  <p><strong>Building clear systems, usable interfaces, and better interactive worlds.</strong></p>
+  <p>
+    <a href="https://github.com/Raven9779">
+      <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=fff" />
+    </a>
+  </p>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,20,30,50,70,90&height=90&section=footer" />
 </div>
