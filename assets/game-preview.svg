@@ -77,28 +77,20 @@
   </rect>
 
   <!-- Corner decorations -->
-  <rect x="1" y="1" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="1" y="1" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="567" y="1" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="597" y="1" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="1" y="218" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="1" y="219" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="567" y="218" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
-  <rect x="597" y="218" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
   </rect>
 
