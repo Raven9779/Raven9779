@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:f59e0b&height=200&section=header&text=Raven9779&fontSize=70&fontColor=ffffff&fontAlignY=35&animation=fadeIn" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,100:0ea5e9&height=200&section=header&text=Raven9779&fontSize=70&fontColor=ffffff&fontAlignY=35&animation=fadeIn" width="100%" alt="header" />
 
 <p align="center">
   <a href="https://github.com/Raven9779">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2300&pause=300&color=F59E0B&center=true&vCenter=true&width=450&lines=%F0%9F%9A%80+init+personality+module...;%F0%9F%94%A7+sarcasm.dll+loaded+%E2%9C%85;%F0%9F%90%9E+%E5%8F%88%E5%9C%A8%E5%86%99bug%E4%BA%86;%F0%9F%9A%80+PR+is+coming%2C+hold+my+beer;%F0%9F%90%9F+%E6%91%B8%E9%B1%BC%E4%B8%AD%EF%BC%8C%E5%8B%BF%E6%89%B0;%F0%9F%94%A5+deploy+to+prod%2C+we+ball" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2300&pause=300&color=38BDF8&center=true&vCenter=true&width=450&lines=%F0%9F%9A%80+init+personality+module...;%F0%9F%94%A7+sarcasm.dll+loaded+%E2%9C%85;%F0%9F%90%9E+%E5%8F%88%E5%9C%A8%E5%86%99bug%E4%BA%86;%F0%9F%9A%80+PR+is+coming%2C+hold+my+beer;%F0%9F%90%9F+%E6%91%B8%E9%B1%BC%E4%B8%AD%EF%BC%8C%E5%8B%BF%E6%89%B0;%F0%9F%94%A5+deploy+to+prod%2C+we+ball" alt="typing" />
   </a>
 </p>
 
@@ -20,30 +20,30 @@
 ### 🏷️ Craft
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Full--stack-f59e0b?style=flat&labelColor=0d0d0d" alt="Full-stack" />
-  <img src="https://img.shields.io/badge/Web3-f59e0b?style=flat&labelColor=0d0d0d" alt="Web3" />
-  <img src="https://img.shields.io/badge/TypeScript-f59e0b?style=flat&labelColor=0d0d0d" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-f59e0b?style=flat&labelColor=0d0d0d" alt="React" />
-  <img src="https://img.shields.io/badge/Solidity-f59e0b?style=flat&labelColor=0d0d0d" alt="Solidity" />
-  <img src="https://img.shields.io/badge/Cloud%20Native-f59e0b?style=flat&labelColor=0d0d0d" alt="Cloud Native" />
-  <img src="https://img.shields.io/badge/Smart%20Contracts-f59e0b?style=flat&labelColor=0d0d0d" alt="Smart Contracts" />
-  <img src="https://img.shields.io/badge/Distributed%20Systems-f59e0b?style=flat&labelColor=0d0d0d" alt="Distributed Systems" />
+  <img src="https://img.shields.io/badge/Full--stack-38bdf8?style=flat&labelColor=1a1a2e" alt="Full-stack" />
+  <img src="https://img.shields.io/badge/Web3-38bdf8?style=flat&labelColor=1a1a2e" alt="Web3" />
+  <img src="https://img.shields.io/badge/TypeScript-0ea5e9?style=flat&labelColor=1a1a2e" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-38bdf8?style=flat&labelColor=1a1a2e" alt="React" />
+  <img src="https://img.shields.io/badge/Solidity-0ea5e9?style=flat&labelColor=1a1a2e" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Cloud%20Native-38bdf8?style=flat&labelColor=1a1a2e" alt="Cloud Native" />
+  <img src="https://img.shields.io/badge/Smart%20Contracts-0ea5e9?style=flat&labelColor=1a1a2e" alt="Smart Contracts" />
+  <img src="https://img.shields.io/badge/Distributed%20Systems-38bdf8?style=flat&labelColor=1a1a2e" alt="Distributed Systems" />
 </p>
 
 <!-- Stats & Streak side by side via &nbsp;spacing -->
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=Raven9779&show_icons=true&theme=transparent&hide_border=true&text_color=a3a3a3&icon_color=f59e0b&title_color=fafafa&include_all_commits=true&hide_title=true&rank_icon=percentile" alt="stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=Raven9779&show_icons=true&theme=transparent&hide_border=true&text_color=38bdf8&icon_color=0ea5e9&title_color=0ea5e9&include_all_commits=true&hide_title=true&rank_icon=percentile" alt="stats" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://git.io/streak-stats">
-    <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Raven9779&theme=transparent&hide_border=true&stroke=262626&ring=f59e0b&fire=f59e0b&currStreakNum=fafafa&sideNums=fafafa&currStreakLabel=a3a3a3&sideLabels=a3a3a3&dates=a3a3a3" alt="streak" />
+    <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Raven9779&theme=transparent&hide_border=true&stroke=0ea5e9&ring=0ea5e9&fire=38bdf8&currStreakNum=38bdf8&sideNums=38bdf8&currStreakLabel=0ea5e9&sideLabels=0ea5e9&dates=38bdf8" alt="streak" />
   </a>
 </p>
 
 <!-- Trophies -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Raven9779&theme=dark_lover&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&row=1" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Raven9779&theme=algolia&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&row=1" alt="trophies" />
 </p>
 
 ---
@@ -78,18 +78,18 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Raven9779"><img src="https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=f59e0b" alt="GitHub" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Portfolio-1a1a2e?style=for-the-badge&logo=google-chrome&logoColor=f59e0b" alt="Portfolio" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/X-1a1a2e?style=for-the-badge&logo=x&logoColor=f59e0b" alt="X" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-1a1a2e?style=for-the-badge&logo=linkedin&logoColor=f59e0b" alt="LinkedIn" /></a>
+  <a href="https://github.com/Raven9779"><img src="https://img.shields.io/badge/GitHub-0ea5e9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Portfolio-38bdf8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/X-0ea5e9?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0ea5e9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 <!-- Activity Graph -->
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=f59e0b&line=262626&point=fbbf24&area_color=f59e0b20" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=38bdf8&line=0ea5e9&point=38bdf8&area_color=0ea5e910" alt="activity graph" />
 </a>
 
 <!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f59e0b,100:0d0d0d&height=120&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:38bdf8&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
