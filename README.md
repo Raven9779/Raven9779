@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Raven9779">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=500&color=A78BFA&center=true&vCenter=true&width=500&lines=Full-stack+explorer;Building+the+unusual;Less+talk%2C+more+code" alt="typing" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2300&pause=300&color=A78BFA&center=true&vCenter=true&width=450&lines=%F0%9F%9A%80+init+personality+module...;%F0%9F%94%A7+sarcasm.dll+loaded+%E2%9C%85;%F0%9F%90%9E+%E5%8F%88%E5%9C%A8%E5%86%99bug%E4%BA%86;%F0%9F%9A%80+PR+is+coming%2C+hold+my+beer;%F0%9F%90%9F+%E6%91%B8%E9%B1%BC%E4%B8%AD%EF%BC%8C%E5%8B%BF%E6%89%B0;%F0%9F%94%A5+deploy+to+prod%2C+we+ball" alt="typing" />
   </a>
 </p>
 
