@@ -93,8 +93,16 @@
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-6366f1?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-<!-- Snake Animation -->
-<img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake-dark.svg" alt="snake animation" />
+<!-- Activity Graph -->
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=a78bfa&line=6366f1&point=a78bfa&area_color=6366f1" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=6366f1&line=a78bfa&point=6366f1&area_color=a78bfa" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=a78bfa&line=6366f1&point=a78bfa&area_color=6366f1" style="max-width:780px;width:100%;height:auto;" alt="activity graph" />
+    </picture>
+  </a>
+</p>
 
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a78bfa&height=120&section=footer" width="100%" alt="footer" />
