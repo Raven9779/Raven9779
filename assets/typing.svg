@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="500" height="4">
+      <rect width="500" height="2" fill="rgba(163, 139, 250, 0.02)"/>
+      <rect y="2" width="500" height="2" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="500" height="120" rx="12" ry="12" fill="#0d1117"/>
+  <rect x="1" y="1" width="498" height="118" rx="11" ry="11" fill="#1a1a2e"/>
+
+  <!-- Animated border glow -->
+  <rect x="1" y="1" width="498" height="118" rx="11" ry="11" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorations -->
+  <rect x="1" y="1" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="475" y="1" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="497" y="1" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="97" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="98" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="475" y="97" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="497" y="97" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanlines overlay -->
+  <rect width="500" height="120" fill="url(#scanlines)" opacity="0.3"/>
+
+  <!-- Terminal prompt character -->
+  <text x="25" y="35" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
+  <text x="38" y="35" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa" opacity="0.9">
+    init personality module...
+    <animate attributeName="opacity" values="1;1;1" dur="0.1s" fill="freeze"/>
+  </text>
+
+  <!-- Typing cursor (blinking) -->
+  <rect x="205" y="22" width="7" height="15" rx="1" fill="#a78bfa" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Line 1: init -->
+  <text x="25" y="55" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
+  <text x="38" y="55" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+    🔧 sarcasm.dll loaded ✅
+  </text>
+
+  <!-- Line 2 -->
+  <text x="25" y="75" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
+  <text x="38" y="75" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+    🐞 又在写bug了
+  </text>
+
+  <!-- Line 3 -->
+  <text x="25" y="95" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
+  <text x="38" y="95" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+    🚀 PR is coming, hold my beer
+  </text>
+
+  <!-- Decorative cursor dots on right -->
+  <circle cx="470" cy="35" r="2" fill="#6366f1" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="35" r="1.5" fill="#f472b6" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="470" cy="75" r="1.5" fill="#6366f1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="460" cy="75" r="2" fill="#f59e0b" opacity="0.2">
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Extra floating dots -->
+  <circle cx="480" cy="55" r="1" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

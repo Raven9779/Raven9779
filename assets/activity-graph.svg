@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" width="700" height="160">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="40%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="700" height="4">
+      <rect width="700" height="2" fill="rgba(163, 139, 250, 0.02)"/>
+      <rect y="2" width="700" height="2" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="700" height="160" rx="12" ry="12" fill="#0d1117"/>
+  <rect x="1" y="1" width="698" height="158" rx="11" ry="11" fill="#1a1a2e"/>
+
+  <!-- Animated border glow -->
+  <rect x="1" y="1" width="698" height="158" rx="11" ry="11" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorations -->
+  <rect x="1" y="1" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="675" y="1" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="697" y="1" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="137" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="138" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="675" y="137" width="24" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="697" y="137" width="2" height="24" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanlines overlay -->
+  <rect width="700" height="160" fill="url(#scanlines)" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="350" y="24" font-family="monospace, 'Courier New', Courier" font-size="11" fill="#f59e0b" text-anchor="middle" letter-spacing="2" opacity="0.7">◈ CONTRIBUTION ACTIVITY ◈</text>
+  <line x1="140" y1="30" x2="560" y2="30" stroke="#6366f1" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Grid lines -->
+  <line x1="45" y1="45" x2="655" y2="45" stroke="#6366f1" stroke-width="0.3" opacity="0.15"/>
+  <line x1="45" y1="70" x2="655" y2="70" stroke="#6366f1" stroke-width="0.3" opacity="0.15"/>
+  <line x1="45" y1="95" x2="655" y2="95" stroke="#6366f1" stroke-width="0.3" opacity="0.15"/>
+  <line x1="45" y1="120" x2="655" y2="120" stroke="#6366f1" stroke-width="0.3" opacity="0.15"/>
+
+  <!-- Area under curve -->
+  <polygon points="45,120 75,110 105,85 135,75 165,60 195,50 225,40 255,55 285,35 315,45 345,30 375,25 405,15 435,35 465,45 495,55 525,40 555,25 585,45 615,60 645,70 655,75 655,120 45,120" fill="url(#areaGrad)"/>
+
+  <!-- Activity curve line -->
+  <polyline points="45,120 75,110 105,85 135,75 165,60 195,50 225,40 255,55 285,35 315,45 345,30 375,25 405,15 435,35 465,45 495,55 525,40 555,25 585,45 615,60 645,70 655,75" fill="none" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="1000;0" dur="2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Data points with glow -->
+  <circle cx="45" cy="120" r="3" fill="#6366f1" filter="url(#glow)">
+    <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="105" cy="85" r="3.5" fill="#a78bfa" filter="url(#glow)">
+    <animate attributeName="r" values="2.5;4.5;2.5" dur="2.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="195" cy="50" r="4" fill="#a78bfa" filter="url(#glow)">
+    <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="285" cy="35" r="4" fill="#f472b6" filter="url(#glow)">
+    <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="345" cy="30" r="4.5" fill="#f472b6" filter="url(#softGlow)">
+    <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="405" cy="15" r="5" fill="#f59e0b" filter="url(#softGlow)">
+    <animate attributeName="r" values="4;6;4" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="465" cy="45" r="4" fill="#f472b6" filter="url(#glow)">
+    <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="25" r="4.5" fill="#a78bfa" filter="url(#glow)">
+    <animate attributeName="r" values="3.5;5.5;3.5" dur="2.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="645" cy="70" r="3" fill="#6366f1" filter="url(#glow)">
+    <animate attributeName="r" values="2;4;2" dur="1.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Y-axis labels -->
+  <text x="40" y="48" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="end" opacity="0.5">20</text>
+  <text x="40" y="73" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="end" opacity="0.5">15</text>
+  <text x="40" y="98" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="end" opacity="0.5">10</text>
+  <text x="40" y="123" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="end" opacity="0.5">5</text>
+
+  <!-- X-axis labels (months) -->
+  <text x="45" y="140" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="start" opacity="0.5">Jan</text>
+  <text x="175" y="140" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="middle" opacity="0.5">Mar</text>
+  <text x="350" y="140" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="middle" opacity="0.5">Jun</text>
+  <text x="525" y="140" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="middle" opacity="0.5">Sep</text>
+  <text x="655" y="140" font-family="monospace, 'Courier New', Courier" font-size="8" fill="#a8a29e" text-anchor="end" opacity="0.5">Dec</text>
+
+  <!-- Legend -->
+  <circle cx="200" cy="150" r="2" fill="#a78bfa"/>
+  <text x="205" y="153" font-family="monospace, 'Courier New', Courier" font-size="7" fill="#a8a29e" opacity="0.5">Contributions</text>
+
+  <!-- Decorative dots -->
+  <circle cx="14" cy="14" r="1.5" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="686" cy="146" r="1.5" fill="#f59e0b" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

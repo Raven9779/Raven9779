@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" width="400" height="220">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="fireGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="400" height="4">
+      <rect width="400" height="2" fill="rgba(163, 139, 250, 0.02)"/>
+      <rect y="2" width="400" height="2" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="400" height="220" rx="12" ry="12" fill="#0d1117"/>
+  <rect x="1" y="1" width="398" height="218" rx="11" ry="11" fill="#1a1a2e"/>
+
+  <!-- Animated border glow -->
+  <rect x="1" y="1" width="398" height="218" rx="11" ry="11" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorations -->
+  <rect x="1" y="1" width="20" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="2" height="20" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="379" y="1" width="20" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="397" y="1" width="2" height="20" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="199" width="20" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="200" width="2" height="20" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="379" y="199" width="20" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="397" y="199" width="2" height="20" rx="1" fill="url(#cornerGrad)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanlines overlay -->
+  <rect width="400" height="220" fill="url(#scanlines)" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="200" y="28" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#f59e0b" text-anchor="middle" letter-spacing="2" opacity="0.7">◈ CONTRIBUTION STREAK ◈</text>
+  <line x1="60" y1="36" x2="340" y2="36" stroke="#6366f1" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Fire icon (decorative flame) -->
+  <g transform="translate(200, 75)" filter="url(#softGlow)">
+    <ellipse cx="0" cy="-8" rx="4" ry="8" fill="#f59e0b" opacity="0.6">
+      <animate attributeName="ry" values="8;11;8" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.5s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="-3" cy="-4" rx="3" ry="5" fill="#f472b6" opacity="0.5">
+      <animate attributeName="ry" values="5;7;5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="3" cy="-4" rx="3" ry="5" fill="#f472b6" opacity="0.5">
+      <animate attributeName="ry" values="5;7;5" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="1.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Base of flame -->
+    <rect x="-6" y="2" width="12" height="6" rx="3" fill="#ea580c" opacity="0.8"/>
+    <rect x="-4" y="6" width="8" height="4" rx="2" fill="#ea580c" opacity="0.6"/>
+  </g>
+
+  <!-- Streak number -->
+  <text x="200" y="135" font-family="monospace, 'Courier New', Courier" font-size="56" fill="#f59e0b" text-anchor="middle" font-weight="900" filter="url(#softGlow)">
+    7
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="200" y="155" font-family="monospace, 'Courier New', Courier" font-size="11" fill="#a8a29e" text-anchor="middle" letter-spacing="3">days</text>
+
+  <!-- Sub-streaks -->
+  <g>
+    <text x="85" y="185" font-family="monospace, 'Courier New', Courier" font-size="10" fill="#a8a29e" text-anchor="middle">Current Streak</text>
+    <text x="85" y="200" font-family="monospace, 'Courier New', Courier" font-size="16" fill="#a78bfa" text-anchor="middle" font-weight="bold">7 days</text>
+  </g>
+  <g>
+    <text x="200" y="185" font-family="monospace, 'Courier New', Courier" font-size="10" fill="#a8a29e" text-anchor="middle">Longest Streak</text>
+    <text x="200" y="200" font-family="monospace, 'Courier New', Courier" font-size="16" fill="#f472b6" text-anchor="middle" font-weight="bold">14 days</text>
+  </g>
+  <g>
+    <text x="315" y="185" font-family="monospace, 'Courier New', Courier" font-size="10" fill="#a8a29e" text-anchor="middle">Total Contributions</text>
+    <text x="315" y="200" font-family="monospace, 'Courier New', Courier" font-size="16" fill="#f59e0b" text-anchor="middle" font-weight="bold">1.2k</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="18" cy="18" r="1.5" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="382" cy="202" r="1.5" fill="#f59e0b" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
