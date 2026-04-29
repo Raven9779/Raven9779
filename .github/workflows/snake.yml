@@ -3,6 +3,8 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -18,9 +20,10 @@ jobs:
           outputs: |
             output/snake.svg
             output/snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push generated snake files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/snake.svg output/snake-dark.svg
+          git diff --staged --quiet || git commit -m "chore: update snake animation [skip ci]"
+          git push
