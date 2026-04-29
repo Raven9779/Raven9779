@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250">
+  <defs>
+    <!-- Glow filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowBig" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Border gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="30%" stop-color="#a78bfa"/>
+      <stop offset="70%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <!-- Corner accent gradient -->
+    <linearGradient id="cornerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+
+    <!-- Screen scanline pattern -->
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="600" height="4">
+      <rect width="600" height="2" fill="rgba(163, 139, 250, 0.02)"/>
+      <rect y="2" width="600" height="2" fill="transparent"/>
+    </pattern>
+
+    <!-- Star pattern -->
+    <g id="star">
+      <circle r="1" fill="rgba(255,255,255,0.6)"/>
+      <circle r="2" fill="rgba(255,255,255,0.2)"/>
+    </g>
+
+    <!-- Enemy (pixel invader) -->
+    <g id="enemy">
+      <rect x="0" y="0" width="4" height="4" fill="#f472b6" opacity="0.8"/>
+      <rect x="8" y="0" width="4" height="4" fill="#f472b6" opacity="0.8"/>
+      <rect x="4" y="4" width="8" height="4" fill="#f472b6" opacity="0.7"/>
+      <rect x="0" y="8" width="4" height="4" fill="#f472b6" opacity="0.6"/>
+      <rect x="8" y="8" width="4" height="4" fill="#f472b6" opacity="0.6"/>
+      <rect x="4" y="12" width="8" height="4" fill="#f472b6" opacity="0.9"/>
+      <rect x="8" y="12" width="4" height="4" fill="#f59e0b" opacity="0.8"/>
+    </g>
+
+    <!-- Bullet -->
+    <g id="bullet">
+      <rect x="0" y="0" width="2" height="6" fill="#f59e0b" opacity="0.9"/>
+    </g>
+
+    <!-- Player ship -->
+    <g id="ship">
+      <polygon points="12,0 8,6 10,6 10,12 6,14 18,14 14,12 14,6 16,6" fill="#a78bfa"/>
+      <polygon points="12,0 8,6 16,6" fill="#6366f1" opacity="0.6"/>
+      <rect x="10" y="14" width="4" height="3" fill="#f59e0b" opacity="0.5"/>
+    </g>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="600" height="250" rx="12" ry="12" fill="#0d1117"/>
+  <rect x="1" y="1" width="598" height="248" rx="11" ry="11" fill="#1a1a2e"/>
+
+  <!-- Animated border glow -->
+  <rect x="1" y="1" width="598" height="248" rx="11" ry="11" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.6" style="animation: borderPulse 3s ease-in-out infinite;">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner decorations -->
+  <rect x="1" y="1" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="567" y="1" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="597" y="1" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="218" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="219" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="567" y="218" width="30" height="2" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="597" y="218" width="2" height="30" rx="1" fill="url(#cornerGrad)" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Scanlines overlay -->
+  <rect width="600" height="250" fill="url(#scanlines)" opacity="0.3"/>
+
+  <!-- ===== BG STARS & DECOR ===== -->
+
+  <!-- Stars scattered across background -->
+  <circle cx="45" cy="40" r="0.8" fill="rgba(255,255,255,0.5)">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="55" r="1.2" fill="rgba(255,255,255,0.4)">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="30" r="0.6" fill="rgba(255,255,255,0.5)">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="60" r="1" fill="rgba(255,255,255,0.3)">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="40" r="0.7" fill="rgba(255,255,255,0.4)">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="420" cy="55" r="1.1" fill="rgba(255,255,255,0.5)">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="35" r="0.5" fill="rgba(255,255,255,0.4)">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="60" r="0.9" fill="rgba(255,255,255,0.3)">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="110" r="0.6" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="160" cy="100" r="0.8" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="340" cy="110" r="0.5" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="480" cy="105" r="0.7" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="530" cy="110" r="0.4" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="250" cy="45" r="0.6" fill="rgba(255,255,255,0.2)">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating Enemies (pixel invaders) -->
+  <g opacity="0.5">
+    <g transform="translate(68, 82) scale(1.2)">
+      <use href="#enemy"/>
+      <animateTransform attributeName="transform" type="translate" values="68,82;75,82;68,82" dur="2s" repeatCount="indefinite" additive="replace"/>
+      <animateTransform attributeName="transform" type="scale" values="1.2;1.3;1.2" dur="2s" repeatCount="indefinite" additive="sum"/>
+    </g>
+  </g>
+  <g opacity="0.4">
+    <g transform="translate(490, 75) scale(1)">
+      <use href="#enemy"/>
+      <animateTransform attributeName="transform" type="translate" values="490,75;483,75;490,75" dur="2.5s" repeatCount="indefinite" additive="replace"/>
+    </g>
+  </g>
+  <g opacity="0.35">
+    <g transform="translate(530, 95) scale(0.8)">
+      <use href="#enemy"/>
+      <animateTransform attributeName="transform" type="translate" values="530,95;536,95;530,95" dur="1.8s" repeatCount="indefinite" additive="replace"/>
+    </g>
+  </g>
+
+  <!-- Bullets flying upward -->
+  <g>
+    <use href="#bullet" x="100" y="160">
+      <animate attributeName="y" values="200;120;200" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.5s" repeatCount="indefinite"/>
+    </use>
+    <use href="#bullet" x="135" y="170">
+      <animate attributeName="y" values="210;100;210" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="1.8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#bullet" x="455" y="165">
+      <animate attributeName="y" values="205;110;205" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="1.6s" repeatCount="indefinite"/>
+    </use>
+    <use href="#bullet" x="500" y="175">
+      <animate attributeName="y" values="215;130;215" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- Player ships at bottom -->
+  <g transform="translate(108, 192) scale(1.3)" opacity="0.35">
+    <use href="#ship"/>
+    <animateTransform attributeName="transform" type="translate" values="108,192;115,192;108,192" dur="1.5s" repeatCount="indefinite" additive="replace"/>
+    <animateTransform attributeName="transform" type="scale" values="1.3;1.35;1.3" dur="1.5s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <g transform="translate(478, 190) scale(1.1)" opacity="0.3">
+    <use href="#ship"/>
+    <animateTransform attributeName="transform" type="translate" values="478,190;471,190;478,190" dur="1.8s" repeatCount="indefinite" additive="replace"/>
+  </g>
+
+  <!-- ===== TEXT CONTENT ===== -->
+
+  <!-- Badge: 🎮 LIVE ARCADE -->
+  <g>
+    <rect x="20" y="18" width="115" height="22" rx="11" fill="#6366f1" opacity="0.3"/>
+    <rect x="20" y="18" width="115" height="22" rx="11" fill="none" stroke="#a78bfa" stroke-width="0.7" opacity="0.5"/>
+    <text x="78" y="33" font-family="monospace" font-size="11" fill="#a78bfa" text-anchor="middle" font-weight="bold">🎮 LIVE ARCADE</text>
+  </g>
+
+  <!-- Main title: SPACE SHOOTER -->
+  <text x="300" y="115" font-family="monospace, 'Courier New', Courier" font-size="44" fill="#a78bfa" text-anchor="middle" font-weight="900" letter-spacing="6" filter="url(#softGlow)">
+    SPACE
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <text x="300" y="155" font-family="monospace, 'Courier New', Courier" font-size="36" fill="#6366f1" text-anchor="middle" font-weight="900" letter-spacing="8" filter="url(#glowBig)" opacity="0.9">
+    SHOOTER
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle line -->
+  <line x1="180" y1="170" x2="420" y2="170" stroke="#6366f1" stroke-width="0.5" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Click hint -->
+  <text x="300" y="188" font-family="monospace" font-size="11" fill="#f59e0b" text-anchor="middle" letter-spacing="3" opacity="0.7">
+    ◇ click to play ◇
+  </text>
+
+  <!-- ===== PLAY BUTTON ===== -->
+  <g transform="translate(300, 215)">
+    <!-- Outer glow ring -->
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.2">
+      <animate attributeName="r" values="18;24;18" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#6366f1" stroke-width="1" opacity="0.15">
+      <animate attributeName="r" values="18;26;18" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="opacity" values="0.3;0;0.3" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+
+    <!-- Button circle -->
+    <circle cx="0" cy="0" r="16" fill="#6366f1" opacity="0.9" filter="url(#glow)">
+      <animate attributeName="r" values="15;17;15" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.8">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Play triangle -->
+    <polygon points="4,0 4,-8 -4,-4" fill="white" opacity="0.95" transform="translate(2, 0) rotate(90)">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Floating particles (small dots near play button) -->
+  <circle cx="285" cy="210" r="1" fill="#f59e0b" opacity="0.4">
+    <animate attributeName="cy" values="210;200;210" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="318" cy="220" r="0.8" fill="#f472b6" opacity="0.3">
+    <animate attributeName="cy" values="220;208;220" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="278" cy="218" r="0.6" fill="#a78bfa" opacity="0.3">
+    <animate attributeName="cy" values="218;206;218" dur="1.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="1.1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

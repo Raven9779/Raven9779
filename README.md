@@ -61,7 +61,11 @@
 
 <p align="center">
   <a href="https://raven9779.github.io/arcade" target="_blank">
-    <img src="https://img.shields.io/badge/%20▆%20ENTER%20THE%20ARCADE%20▆-1a1a2e?style=for-the-badge&logo=playstation&logoColor=a78bfa&labelColor=6366f1&color=a78bfa" height="48" alt="Enter the Arcade" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/game-preview.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/game-preview.svg" />
+      <img src="assets/game-preview.svg" width="100%" style="max-width:600px;height:auto;" alt="SPACE SHOOTER - Play in the arcade" />
+    </picture>
   </a>
 </p>
 
