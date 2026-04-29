@@ -94,14 +94,9 @@
 </p>
 
 <!-- Snake Animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake.svg" width="100%" alt="snake" />
-</picture>
+<img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake-dark.svg" width="600" alt="snake animation" />
 
 <!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a78bfa&height=120&section=footer" width="100%" alt="footer" />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a78bfa&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
