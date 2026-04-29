@@ -91,7 +91,8 @@
 
 <!-- Snake Animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" />
   <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/output/snake.svg" height="150" alt="snake" />
 </picture>
 
