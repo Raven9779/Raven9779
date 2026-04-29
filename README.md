@@ -94,9 +94,7 @@
 </p>
 
 <!-- Snake Animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake-dark.svg" width="90%" alt="snake animation" />
-</p>
+<img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/output/snake-dark.svg" alt="snake animation" />
 
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a78bfa&height=120&section=footer" width="100%" alt="footer" />
