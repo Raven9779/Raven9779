@@ -4,20 +4,20 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:57534e,100:ea580c&height=200&section=header&text=Raven9779&fontSize=70&fontColor=ffffff&fontAlignY=35&animation=fadeIn" width="100%" alt="header" />
 
 <p align="center">
-```
+  <pre>
 ╔══════════════════════════════════════════════════════════════╗
-║const Raven9779 = {                                           ║
-║  role: "Full-Stack Developer & Web3 Builder",                ║
-║  mission: "Crafting code from UI pixels to cloud infra",     ║
-║  techStack: {                                                ║
-║    frontend: ["React", "Next.js", "TypeScript"],             ║
-║    web3: ["Solidity", "Smart Contracts"],                    ║
-║    backend: ["Node.js", "Docker", "AWS"],                    ║
-║  },                                                          ║
-║  vibe: "Building things that matter 🚀",                      ║
-║};                                                            ║
+║ const Raven9779 = {                                          ║
+║   role: "Full-Stack Developer & Web3 Builder",               ║
+║   mission: "Crafting code from UI pixels to cloud infra",    ║
+║   techStack: {                                               ║
+║     frontend: ["React", "Next.js", "TypeScript"],            ║
+║     web3: ["Solidity", "Smart Contracts"],                   ║
+║     backend: ["Node.js", "Docker", "AWS"],                   ║
+║   },                                                         ║
+║   vibe: "Building things that matter 🚀",                     ║
+║ };                                                           ║
 ╚══════════════════════════════════════════════════════════════╝
-```
+  </pre>
 </p>
 
 ### ⚡ Stack
