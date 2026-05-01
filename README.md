@@ -41,24 +41,6 @@
   <img src="https://img.shields.io/badge/Distributed%20Systems-a8a29e?style=flat&labelColor=f5f5f4" alt="Distributed Systems" />
 </p>
 
-<!-- Stats & Streak side by side via &nbsp;spacing -->
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img width="400" src="https://github-readme-stats.vercel.app/api?username=Raven9779&show_icons=true&theme=transparent&hide_border=true&text_color=a78bfa&icon_color=6366f1&title_color=6366f1&include_all_commits=true&hide_title=true&rank_icon=percentile" alt="stats" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://git.io/streak-stats">
-    <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=Raven9779&theme=transparent&hide_border=true&stroke=6366f1&ring=6366f1&fire=a78bfa&currStreakNum=a78bfa&sideNums=a78bfa&currStreakLabel=6366f1&sideLabels=6366f1&dates=a78bfa" alt="streak" />
-  </a>
-</p>
-
-<!-- Trophies -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Raven9779&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&row=1" width="400" alt="trophies" />
-</p>
-
----
-
 ### 🎮 LIVE ARCADE
 
 <p align="center">
@@ -94,11 +76,6 @@
   <a href="#"><img src="https://img.shields.io/badge/X-57534e?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-57534e?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
-
-<!-- Activity Graph -->
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raven9779&theme=github-compact&hide_border=true&area=true&bg_color=transparent&color=a78bfa&line=6366f1&point=a78bfa&area_color=6366f110" width="100%" alt="activity graph" />
-</a>
 
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ea580c,100:57534e&height=120&section=footer" width="100%" alt="footer" />
