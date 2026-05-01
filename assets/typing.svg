@@ -28,51 +28,113 @@
       <rect width="500" height="2" fill="rgba(163, 139, 250, 0.02)"/>
       <rect y="2" width="500" height="2" fill="transparent"/>
     </pattern>
+
+    <!-- Clip paths for typewriter reveal -->
+    <!-- Line 0: "init personality module..." ~210px, baseline y=36 → glyph area y≈20-40 -->
+    <clipPath id="c0">
+      <rect x="38" y="18" width="210" height="22">
+        <animate attributeName="width" values="0;0;210;210;0;0"
+          keyTimes="0;0.020;0.200;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 1: "🔧 sarcasm.dll loaded ✅" ~210px, baseline y=56 -->
+    <clipPath id="c1">
+      <rect x="38" y="38" width="210" height="22">
+        <animate attributeName="width" values="0;0;210;210;0;0"
+          keyTimes="0;0.233;0.413;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 2: "🐞 又在写bug了" ~145px, baseline y=76 -->
+    <clipPath id="c2">
+      <rect x="38" y="58" width="145" height="22">
+        <animate attributeName="width" values="0;0;145;145;0;0"
+          keyTimes="0;0.447;0.567;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <!-- Line 3: "🚀 PR is coming, hold my beer" ~220px, baseline y=96 -->
+    <clipPath id="c3">
+      <rect x="38" y="78" width="220" height="22">
+        <animate attributeName="width" values="0;0;220;220;0;0"
+          keyTimes="0;0.600;0.793;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <!-- Dark background -->
+  <!-- Background -->
   <rect width="500" height="120" rx="12" ry="12" fill="#0d1117"/>
   <rect x="1" y="1" width="498" height="118" rx="11" ry="11" fill="#1a1a2e"/>
 
-  <!-- Animated border glow -->
+  <!-- Border glow -->
   <rect x="1" y="1" width="498" height="118" rx="11" ry="11" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.5">
     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Scanlines overlay -->
+  <!-- Scanlines -->
   <rect width="500" height="120" fill="url(#scanlines)" opacity="0.3"/>
 
-  <!-- Terminal prompt character -->
-  <text x="25" y="35" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
-  <text x="38" y="35" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa" opacity="0.9">
-    init personality module...
-    <animate attributeName="opacity" values="1;1;1" dur="0.1s" fill="freeze"/>
+  <!-- ====================== ROW 0 ====================== -->
+  <text x="25" y="36" font-family="monospace,'Courier New',Courier" font-size="13" fill="#f59e0b" opacity="0">
+    $<animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.020;0.025;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
   </text>
-
-  <!-- Typing cursor (blinking) -->
-  <rect x="205" y="22" width="7" height="15" rx="1" fill="#a78bfa" opacity="0.8">
-    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+  <text x="38" y="36" font-family="monospace,'Courier New',Courier" font-size="13" fill="#a78bfa" clip-path="url(#c0)">
+    init personality module...
+  </text>
+  <!-- Cursor slides right during typing -->
+  <rect x="38" y="23" width="7" height="15" rx="1" fill="#a78bfa" opacity="0">
+    <animate attributeName="x" values="38;245;245;38"
+      keyTimes="0;0.200;0.800;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.020;0.030;0.190;0.220;1" dur="15s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Line 1: init -->
-  <text x="25" y="55" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
-  <text x="38" y="55" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+  <!-- ====================== ROW 1 ====================== -->
+  <text x="25" y="56" font-family="monospace,'Courier New',Courier" font-size="13" fill="#f59e0b" opacity="0">
+    $<animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.233;0.238;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+  </text>
+  <text x="38" y="56" font-family="monospace,'Courier New',Courier" font-size="13" fill="#a78bfa" clip-path="url(#c1)">
     🔧 sarcasm.dll loaded ✅
   </text>
+  <rect x="38" y="43" width="7" height="15" rx="1" fill="#a78bfa" opacity="0">
+    <animate attributeName="x" values="38;245;245;38"
+      keyTimes="0;0.413;0.800;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.233;0.243;0.400;0.430;1" dur="15s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Line 2 -->
-  <text x="25" y="75" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
-  <text x="38" y="75" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+  <!-- ====================== ROW 2 ====================== -->
+  <text x="25" y="76" font-family="monospace,'Courier New',Courier" font-size="13" fill="#f59e0b" opacity="0">
+    $<animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.447;0.452;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+  </text>
+  <text x="38" y="76" font-family="monospace,'Courier New',Courier" font-size="13" fill="#a78bfa" clip-path="url(#c2)">
     🐞 又在写bug了
   </text>
+  <rect x="38" y="63" width="7" height="15" rx="1" fill="#a78bfa" opacity="0">
+    <animate attributeName="x" values="38;180;180;38"
+      keyTimes="0;0.567;0.800;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.447;0.457;0.550;0.580;1" dur="15s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Line 3 -->
-  <text x="25" y="95" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#f59e0b" opacity="0.8">$</text>
-  <text x="38" y="95" font-family="monospace, 'Courier New', Courier" font-size="13" fill="#a78bfa">
+  <!-- ====================== ROW 3 ====================== -->
+  <text x="25" y="96" font-family="monospace,'Courier New',Courier" font-size="13" fill="#f59e0b" opacity="0">
+    $<animate attributeName="opacity" values="0;0;0.8;0.8;0;0"
+      keyTimes="0;0.600;0.605;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+  </text>
+  <text x="38" y="96" font-family="monospace,'Courier New',Courier" font-size="13" fill="#a78bfa" clip-path="url(#c3)">
     🚀 PR is coming, hold my beer
   </text>
+  <rect x="38" y="83" width="7" height="15" rx="1" fill="#a78bfa" opacity="0">
+    <animate attributeName="x" values="38;258;258;258;38"
+      keyTimes="0;0.793;0.800;0.980;1" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.8;0.8;0;0.8;0;0.8;0;0.8;0;0.8;0;0.8;0;0.8;0;0;0"
+      keyTimes="0;0.600;0.610;0.750;0.800;0.815;0.830;0.845;0.860;0.875;0.890;0.905;0.920;0.935;0.950;0.965;0.980;0.990;1"
+      dur="15s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Decorative cursor dots on right -->
+  <!-- Decorative dots -->
   <circle cx="470" cy="35" r="2" fill="#6366f1" opacity="0.4">
     <animate attributeName="opacity" values="0.2;0.6;0.2" dur="1.8s" repeatCount="indefinite"/>
   </circle>
@@ -85,8 +147,6 @@
   <circle cx="460" cy="75" r="2" fill="#f59e0b" opacity="0.2">
     <animate attributeName="opacity" values="0.1;0.4;0.1" dur="1.5s" repeatCount="indefinite"/>
   </circle>
-
-  <!-- Extra floating dots -->
   <circle cx="480" cy="55" r="1" fill="#a78bfa" opacity="0.3">
     <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2s" repeatCount="indefinite"/>
   </circle>
