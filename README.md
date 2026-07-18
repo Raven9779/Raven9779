@@ -17,7 +17,7 @@
 - **Next up:** publish the first real writing and keep tightening the operating experience.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Raven9779/Raven9779/master/assets/build-signal.svg" width="100%" alt="Build signal: personal publishing stack deployed, custom domain pending, first posts next." />
+  <img src="assets/build-signal.svg" width="100%" alt="Build signal: personal publishing stack deployed, custom domain pending, first posts next." />
 </p>
 
 ---
