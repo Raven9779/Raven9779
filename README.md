@@ -38,7 +38,7 @@ Exploring how real-time collaboration should feel before pretending it is a fini
 
 `JavaScript` `Realtime systems` `MVP`
 
-[Open the repository](https://github.com/Raven9779/collab-server-mvp)
+**Working note:** The prototype is private while the real-time model is still being tested.
 
 ### 03 / Web3 Notes and Experiments
 
