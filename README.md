@@ -30,7 +30,7 @@ An independently deployed blog system with public reading, sign-in-protected pub
 
 `Next.js` `TypeScript` `API` `ECS` `Nginx`
 
-[Frontend](https://github.com/Raven9779/blog-frontend) · [Backend](https://github.com/Raven9779/blog-backend)
+**Release note:** The source stays private while the system moves from deployment to its custom-domain launch.
 
 ### 02 / Collaborative Server MVP
 
