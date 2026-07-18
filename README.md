@@ -66,7 +66,7 @@ A working notebook for product ideas, on-chain primitives, and the questions wor
   </a>
 </p>
 
-<p align="center"><sub>A tiny playable experiment. The old Pages site is archived; the source stays in the repo.</sub></p>
+<p align="center"><sub>A tiny playable experiment. The original source stays in the repo.</sub></p>
 
 ---
 
