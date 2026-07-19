@@ -90,8 +90,9 @@ git branch --format='%(refname:short)'
    `ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`; no external
    font import is allowed.
 4. Draw one exterior frame and three equal panels. Use concise, high-contrast
-   labels sized for a 960px asset that remains visually legible when embedded
-   at 320px wide; favor short labels and large type over dense copy.
+   labels so the desktop asset remains balanced when scaled down; the
+   responsive mobile asset owns readable essential labels at a 320px display
+   width. Favor short labels and large type over dense copy.
 5. Build the left pane as a deterministic terminal with the exact visible
    command concepts `route interface -> api`, `validate contract`, and
    `handoff deploy`, plus language that makes the display illustrative instead
