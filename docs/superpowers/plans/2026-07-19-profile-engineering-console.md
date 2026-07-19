@@ -9,10 +9,11 @@ compact, accessible Engineering Console SVG. It should signal product
 engineering through deterministic, illustrative interfaces rather than a
 portfolio, an activity dashboard, or fake operational data.
 
-**Architecture:** Keep the profile README deliberately small. A single local
-SVG owns the visual language, metadata, decorative grid, three equal console
-panes, CSS-only motion, and reduced-motion behavior. `README.md` only embeds
-the asset with meaningful alternate text.
+**Architecture:** Keep the profile README deliberately small. A GitHub-supported
+`<picture>` element selects a local `960 x 360` horizontal desktop SVG or a
+`720 x 1020` vertically stacked mobile SVG at `max-width: 600px`. Both assets
+own the same visual language, metadata, decorative grid, three console panes,
+CSS-only motion, and reduced-motion behavior.
 
 **Tooling:** GitHub profile README Markdown, hand-authored SVG/CSS, `xmllint`,
 ImageMagick `magick` when available, and GitHub CLI for the release PR.
@@ -21,10 +22,13 @@ ImageMagick `magick` when available, and GitHub CLI for the release PR.
 
 - Work from a clean feature branch, never directly on `master`.
 - Keep the existing centered identity, `FOCUS`, `NOW`, and `STACK` sections.
-- Add exactly one full-width `Engineering Console` SVG between the identity
-  block and `FOCUS`.
+- Add exactly one full-width `Engineering Console` visual through a responsive
+  `<picture>` element between the identity block and `FOCUS`.
 - The console has exactly three equal-pane concepts: Build Terminal, Request
   Machine, and Command Palette. It is one cohesive console, not three cards.
+- Desktop uses a `960 x 360` horizontal SVG. At `max-width: 600px`, mobile
+  uses a `720 x 1020` vertically stacked SVG so essential labels remain
+  readable at a 320px display width while retaining the same console concept.
 - Use a graphite/deep-blue panel base, teal route signal, and a restrained
   amber accent. Do not introduce remote images, JavaScript, web fonts, links,
   forms, or dependencies.
@@ -32,6 +36,8 @@ ImageMagick `magick` when available, and GitHub CLI for the release PR.
   real build completion, live metrics, or an active command session.
 - The request pane must communicate `INTERFACE -> API -> DEPLOY` but must not
   claim traffic, latency, uptime, release history, online state, or metrics.
+- Static teal arrowheads must make the route direction explicit even when
+  reduced motion disables the moving dashed signal.
 - The command palette must include `> raven.ship()` and a blinking cursor, but
   it is not interactive.
 - Implement only CSS/SVG animation: a moving route signal, blinking cursor,
@@ -74,6 +80,7 @@ git branch --format='%(refname:short)'
 
 **Files:**
 - Create: `assets/engineering-console.svg`
+- Create: `assets/engineering-console-mobile.svg`
 
 1. Begin from `master` on `agent/profile-engineering-console`.
 2. Create a self-contained SVG with `viewBox="0 0 960 360"`, `role="img"`,
@@ -103,6 +110,13 @@ git branch --format='%(refname:short)'
    only teal/amber accents. Do not add cards, graphs, fake percentages, or
    operational telemetry.
 10. Commit the self-contained asset.
+11. Create the matching mobile SVG with `viewBox="0 0 720 1020"` and the same
+    semantic metadata, visual language, motion classes, reduced-motion rule,
+    and illustrative/non-interactive language. Stack the three panes within one
+    outer frame and use larger primary text so headings, terminal commands,
+    route labels, `> raven.ship()`, and mode labels remain readable at 320px.
+12. Add static teal arrowheads after both desktop and mobile route connectors;
+    retain the animated dashed overlay only as decorative polish.
 
 **Suggested implementation structure:**
 
@@ -132,14 +146,15 @@ git branch --format='%(refname:short)'
 
 ```sh
 xmllint --noout assets/engineering-console.svg
-rg -n 'ENGINEERING CONSOLE|BUILD TERMINAL|REQUEST MACHINE|COMMAND PALETTE|INTERFACE|API|DEPLOY|raven\.ship|prefers-reduced-motion|aria-labelledby' assets/engineering-console.svg
-rg -n '<script|fetch\(|url\(' assets/engineering-console.svg
-rg -n -i 'uptime|latency|traffic|metric|release history|online state' assets/engineering-console.svg
+xmllint --noout assets/engineering-console-mobile.svg
+rg -n 'marker-end|arrow|INTERFACE|API|DEPLOY|prefers-reduced-motion|route-flow|cursor|indicator' assets/engineering-console.svg assets/engineering-console-mobile.svg
+rg -n -i '<script\b|<a\b|\b(?:href|xlink:href)\s*=|\b(?:src|data)\s*=|https?://|url\(' assets/engineering-console.svg assets/engineering-console-mobile.svg
 git diff --check
 ```
 
-The first `rg` scan must find the required content. The final two `rg` scans
-must return no matches for forbidden executable/external/telemetry patterns.
+The content scan must find required labels, static arrow direction, motion
+classes, and reduced-motion handling. The prohibited-pattern scan must return
+no matches except the XML namespace URL.
 
 ## Task 3: Integrate The Console And Retire System Trace
 
@@ -147,9 +162,10 @@ must return no matches for forbidden executable/external/telemetry patterns.
 - Modify: `README.md`
 - Delete: `assets/system-trace.svg`
 
-1. Replace the `assets/system-trace.svg` image reference with
-   `assets/engineering-console.svg` in the existing centered full-width image
-   block; do not add another visual block.
+1. Replace the existing console image in the centered full-width block with a
+   GitHub-compatible `<picture>` element. Its `max-width: 600px` source selects
+   `assets/engineering-console-mobile.svg`; its fallback image uses
+   `assets/engineering-console.svg`. Do not add another visual block.
 2. Set the image alternate text to: `Engineering Console with a deterministic
    build terminal, a request route from interface through API to deploy, and a
    command palette reading raven.ship.`
@@ -165,7 +181,7 @@ must return no matches for forbidden executable/external/telemetry patterns.
 ```sh
 test -f assets/engineering-console.svg
 test ! -e assets/system-trace.svg
-rg -n 'engineering-console\.svg|Engineering Console with a deterministic build terminal' README.md
+rg -n '<picture>|max-width: 600px|engineering-console-mobile\.svg|engineering-console\.svg' README.md
 rg -n -i 'arcade|snake|system-trace|trophy|activity|stats-card|project card' README.md
 git diff --check
 ```
@@ -175,27 +191,29 @@ The first three checks must succeed and the final `rg` must return no matches.
 ## Task 4: Visual, Motion, And Accessibility QA
 
 **Files:**
-- Verify only: `README.md`, `assets/engineering-console.svg`
+- Verify only: `README.md`, `assets/engineering-console.svg`,
+  `assets/engineering-console-mobile.svg`
 
-1. Render the SVG to a temporary PNG at native width and at 320px width, then
-   inspect both images. Check that the three panes remain balanced, labels are
-   not clipped, panel spacing is intentional, and the teal signal and amber
-   accent remain restrained against the dark base.
-2. Inspect the SVG source to confirm the `<title>`, `<desc>`, role, and
+1. Render both SVGs to temporary PNGs and render the mobile SVG at 320px,
+   then inspect them. Check that the desktop panes remain balanced and that
+   the mobile primary labels are readable without clipping at 320px.
+2. Inspect both SVG sources to confirm the `<title>`, `<desc>`, role, and
    `aria-labelledby` identifiers align exactly.
 3. Inspect the CSS to confirm all three animations use the classes named in
    Task 2 and the reduced-motion media query disables each class.
-4. Verify the file has no network dependency, no scripts, no links, and no
-   fake operational claims.
+4. Verify both files have no network dependency, scripts, links, or fake
+   operational claims, and that their static arrowheads show route direction.
 5. Add no repository files during QA; use `/private/tmp` for temporary output.
 
 **Verification:**
 
 ```sh
 magick -background '#0b1220' assets/engineering-console.svg /private/tmp/engineering-console.png
-magick -background '#0b1220' -resize 320 /private/tmp/engineering-console.png /private/tmp/engineering-console-320.png
-identify /private/tmp/engineering-console.png /private/tmp/engineering-console-320.png
+magick -background '#0b1220' assets/engineering-console-mobile.svg /private/tmp/engineering-console-mobile.png
+magick /private/tmp/engineering-console-mobile.png -resize 320 /private/tmp/engineering-console-mobile-320.png
+identify /private/tmp/engineering-console.png /private/tmp/engineering-console-mobile.png /private/tmp/engineering-console-mobile-320.png
 xmllint --noout assets/engineering-console.svg
+xmllint --noout assets/engineering-console-mobile.svg
 git status --short
 ```
 
@@ -209,7 +227,7 @@ git status --short
    and rerun Tasks 2-4 verification after resolution.
 2. Push `agent/profile-engineering-console`, create one PR with a concise
    feature-focused title and body, and inspect the diff for scope only in
-   `README.md`, `assets/engineering-console.svg`, and deletion of
+   `README.md`, both engineering-console SVG assets, and deletion of
    `assets/system-trace.svg`.
 3. Merge after the PR's checks and GitHub mergeability are clear. Delete the
    remote branch and local branch only after confirming `master` contains the

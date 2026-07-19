@@ -38,6 +38,8 @@
     <text x="359" y="116" fill="#fbbf24" font-size="14" font-weight="700" letter-spacing=".6">REQUEST MACHINE</text>
     <path d="M359 132H601" stroke="#8aa0aa" stroke-opacity=".25"/>
     <path d="M403 211H463M497 211H557" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+    <path id="interface-to-api-arrow" d="M451 205L461 211L451 217Z" fill="#5eead4"/>
+    <path id="api-to-deploy-arrow" d="M545 205L555 211L545 217Z" fill="#5eead4"/>
     <path class="motion route-flow" d="M403 211H463M497 211H557" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
     <circle cx="386" cy="211" r="17" fill="#10282b" stroke="#5eead4" stroke-width="2"/>
     <circle cx="480" cy="211" r="17" fill="#10282b" stroke="#5eead4" stroke-width="2"/>

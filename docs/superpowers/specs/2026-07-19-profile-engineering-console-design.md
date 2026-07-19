@@ -44,15 +44,17 @@ The SVG contains three equal visual panes within one shared console frame:
 
 ## Visual Direction
 
-- One `960 x 300` SVG with a graphite background, deep-blue structural panels,
-  teal route highlights, and a single amber action accent.
+- A GitHub-supported `<picture>` element selects a `960 x 360` horizontal SVG
+  for desktop and a `720 x 1020` vertically stacked SVG at `max-width: 600px`.
+- Both assets use a graphite background, deep-blue structural panels, teal
+  route highlights, and a single amber action accent.
 - Use clear sans-serif text for headings and a monospace face only inside the
   console panes.
 - The outer frame, dividers, grid, and subtle glow give the three panes one
   coherent device-like surface.
-- On a narrow GitHub mobile viewport the image scales to its container without
-  requiring horizontal scrolling. Its text sizes remain readable at 320px CSS
-  display width.
+- The mobile variant keeps the exact same console concept while stacking the
+  panes and enlarging essential labels for readability at 320px CSS display
+  width without horizontal scrolling.
 
 ## Motion And Accessibility
 
@@ -60,6 +62,8 @@ The SVG contains three equal visual panes within one shared console frame:
   and a low-frequency terminal indicator pulse.
 - The SVG includes a `prefers-reduced-motion: reduce` media rule that disables
   all animation and leaves every state visible.
+- Static teal arrowheads make the interface-to-API-to-deploy direction clear
+  even when motion is reduced.
 - Provide an SVG `title` and `desc`, plus meaningful README `alt` text that
   describes the three panes and their illustrated route.
 - The artwork is self-contained: no JavaScript, external fonts, remote assets,
@@ -77,20 +81,24 @@ The SVG contains three equal visual panes within one shared console frame:
 
 ## Asset Transition
 
-- Add `assets/engineering-console.svg` as the new component.
-- Update `README.md` to reference the new asset in place of
-  `assets/system-trace.svg`.
+- Add `assets/engineering-console.svg` as the `960 x 360` desktop component
+  and `assets/engineering-console-mobile.svg` as the `720 x 1020` mobile
+  component.
+- Update `README.md` to use a GitHub-supported `<picture>` element that selects
+  the mobile asset at `max-width: 600px` and otherwise uses the desktop asset.
 - Remove `assets/system-trace.svg` after the README reference changes.
 
 ## Verification
 
-1. The SVG validates as XML, has the expected `960 x 300` viewBox, and includes
-   `title`, `desc`, `role="img"`, and `aria-labelledby`.
-2. Required pane labels and route markers are present; prohibited telemetry and
-   portfolio terms are absent.
-3. The source includes reduced-motion handling and no script, external URL, or
-   data-fetching dependency.
-4. README references only the new console asset and keeps the technical identity
-   structure without Arcade, Snake, project cards, or private links.
+1. Both SVGs validate as XML, have the expected `960 x 360` desktop and
+   `720 x 1020` mobile viewBoxes, and include `title`, `desc`, `role="img"`,
+   and `aria-labelledby`.
+2. Required pane labels, static route arrowheads, and route markers are
+   present; prohibited telemetry and portfolio terms are absent.
+3. Both sources include reduced-motion handling and no script, external URL,
+   or data-fetching dependency.
+4. README references the responsive console `<picture>` with both assets and
+   keeps the technical identity structure without Arcade, Snake, project
+   cards, or private links.
 5. The change is merged through a focused PR and the temporary branch is
    removed after verification.

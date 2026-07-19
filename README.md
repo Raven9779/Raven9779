@@ -9,7 +9,10 @@
 ---
 
 <p align="center">
-  <img src="assets/engineering-console.svg" width="100%" alt="Engineering Console with a deterministic build terminal, a request route from interface through API to deploy, and a command palette reading raven.ship." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/engineering-console-mobile.svg" />
+    <img src="assets/engineering-console.svg" width="100%" alt="Engineering Console with a deterministic build terminal, a request route from interface through API to deploy, and a command palette reading raven.ship." />
+  </picture>
 </p>
 
 ---
