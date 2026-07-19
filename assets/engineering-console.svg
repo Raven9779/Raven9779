@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-labelledby="console-title console-description">
+  <title id="console-title">Raven9779 Engineering Console</title>
+  <desc id="console-description">An illustrated build terminal, request route from interface through API to deploy, and command palette for Raven9779.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .motion { transform-box: fill-box; transform-origin: center; }
+    .route-flow { animation: flow 6s linear infinite; }
+    .cursor { animation: blink 1s steps(1, end) infinite; }
+    .indicator { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -48; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) {
+      .route-flow, .cursor, .indicator { animation: none; }
+    }
+  </style>
+  <rect width="960" height="360" rx="16" fill="#091216"/>
+  <path d="M24 0V360 M48 0V360 M72 0V360 M96 0V360 M120 0V360 M144 0V360 M168 0V360 M192 0V360 M216 0V360 M240 0V360 M264 0V360 M288 0V360 M312 0V360 M336 0V360 M360 0V360 M384 0V360 M408 0V360 M432 0V360 M456 0V360 M480 0V360 M504 0V360 M528 0V360 M552 0V360 M576 0V360 M600 0V360 M624 0V360 M648 0V360 M672 0V360 M696 0V360 M720 0V360 M744 0V360 M768 0V360 M792 0V360 M816 0V360 M840 0V360 M864 0V360 M888 0V360 M912 0V360 M936 0V360 M0 24H960 M0 48H960 M0 72H960 M0 96H960 M0 120H960 M0 144H960 M0 168H960 M0 192H960 M0 216H960 M0 240H960 M0 264H960 M0 288H960 M0 312H960 M0 336H960" fill="none" stroke="#8aa0aa" stroke-opacity=".07"/>
+  <rect x="1" y="1" width="958" height="358" rx="15" fill="none" stroke="#5eead4" stroke-opacity=".34"/>
+
+  <text class="mono" x="32" y="42" fill="#e6f4ef" font-size="18" font-weight="700" letter-spacing="1.5">ENGINEERING CONSOLE</text>
+  <circle class="motion indicator" cx="908" cy="35" r="5" fill="#fbbf24"/>
+  <text class="mono" x="924" y="40" fill="#fbbf24" font-size="11" text-anchor="end" letter-spacing="1">ILLUSTRATIVE</text>
+  <path d="M32 60H928" stroke="#8aa0aa" stroke-opacity=".25"/>
+
+  <g class="mono">
+    <rect x="32" y="84" width="282" height="244" rx="8" fill="#0d1a1f" fill-opacity=".94" stroke="#5eead4" stroke-opacity=".42"/>
+    <text x="52" y="116" fill="#fbbf24" font-size="14" font-weight="700" letter-spacing=".6">BUILD TERMINAL</text>
+    <path d="M52 132H294" stroke="#8aa0aa" stroke-opacity=".25"/>
+    <text x="52" y="164" fill="#9ddbd1" font-size="16">$ route interface -&gt; api</text>
+    <text x="52" y="198" fill="#d7e7e3" font-size="16">$ validate contract</text>
+    <text x="52" y="232" fill="#9ddbd1" font-size="16">$ handoff deploy</text>
+    <path d="M52 254H294" stroke="#8aa0aa" stroke-opacity=".2"/>
+    <text x="52" y="282" fill="#91a9a5" font-size="12">ILLUSTRATION ONLY</text>
+    <text x="52" y="304" fill="#91a9a5" font-size="12">NOT A LIVE LOG</text>
+
+    <rect x="339" y="84" width="282" height="244" rx="8" fill="#0d1a1f" fill-opacity=".94" stroke="#5eead4" stroke-opacity=".42"/>
+    <text x="359" y="116" fill="#fbbf24" font-size="14" font-weight="700" letter-spacing=".6">REQUEST MACHINE</text>
+    <path d="M359 132H601" stroke="#8aa0aa" stroke-opacity=".25"/>
+    <path d="M403 211H463M497 211H557" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+    <path class="motion route-flow" d="M403 211H463M497 211H557" fill="none" stroke="#5eead4" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
+    <circle cx="386" cy="211" r="17" fill="#10282b" stroke="#5eead4" stroke-width="2"/>
+    <circle cx="480" cy="211" r="17" fill="#10282b" stroke="#5eead4" stroke-width="2"/>
+    <circle cx="574" cy="211" r="17" fill="#10282b" stroke="#5eead4" stroke-width="2"/>
+    <text x="386" y="257" fill="#e6f4ef" font-size="14" font-weight="700" text-anchor="middle">INTERFACE</text>
+    <text x="480" y="257" fill="#e6f4ef" font-size="14" font-weight="700" text-anchor="middle">API</text>
+    <text x="574" y="257" fill="#e6f4ef" font-size="14" font-weight="700" text-anchor="middle">DEPLOY</text>
+    <text x="480" y="290" fill="#91a9a5" font-size="12" text-anchor="middle">ONE INTENTIONAL ROUTE</text>
+
+    <rect x="646" y="84" width="282" height="244" rx="8" fill="#0d1a1f" fill-opacity=".94" stroke="#5eead4" stroke-opacity=".42"/>
+    <text x="666" y="116" fill="#fbbf24" font-size="14" font-weight="700" letter-spacing=".6">COMMAND PALETTE</text>
+    <path d="M666 132H908" stroke="#8aa0aa" stroke-opacity=".25"/>
+    <rect x="666" y="154" width="222" height="48" rx="5" fill="#071014" stroke="#5eead4" stroke-opacity=".5"/>
+    <text x="682" y="185" fill="#e6f4ef" font-size="18" font-weight="700">&gt; raven.ship()</text>
+    <rect class="motion cursor" x="848" y="170" width="9" height="18" fill="#fbbf24"/>
+    <text x="666" y="244" fill="#9ddbd1" font-size="12">MODE: PRODUCT ENGINEERING</text>
+    <text x="666" y="278" fill="#fbbf24" font-size="12">READY: INTENTIONAL</text>
+    <circle class="motion indicator" cx="676" cy="300" r="4" fill="#5eead4"/>
+    <text x="688" y="304" fill="#91a9a5" font-size="11">NON-INTERACTIVE DISPLAY</text>
+  </g>
+</svg>
