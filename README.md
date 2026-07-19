@@ -9,7 +9,7 @@
 ---
 
 <p align="center">
-  <img src="assets/system-trace.svg" width="100%" alt="System trace from interface through API to deployment, with status shipping." />
+  <img src="assets/engineering-console.svg" width="100%" alt="Engineering Console with a deterministic build terminal, a request route from interface through API to deploy, and a command palette reading raven.ship." />
 </p>
 
 ---
