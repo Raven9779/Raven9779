@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1020" role="img" aria-labelledby="console-mobile-title console-mobile-description">
-  <title id="console-mobile-title">Raven9779 Engineering Console</title>
-  <desc id="console-mobile-description">An illustrated mobile engineering console with a build terminal, a request route from interface through API to deploy, and a command palette for Raven9779.</desc>
+  <title id="console-mobile-title">Engineering Console</title>
+  <desc id="console-mobile-description">An illustrated mobile engineering console with a build terminal, a request route from interface through API to deploy, and a command palette.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .motion { transform-box: fill-box; transform-origin: center; }

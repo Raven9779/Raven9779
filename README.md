@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:155e75,100:0f766e&height=172&section=header&text=Raven9779&fontSize=58&fontColor=f8fafc&fontAlignY=35&animation=fadeIn" width="100%" alt="Raven9779" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:155e75,100:0f766e&height=172&section=header&text=Build%20With%20Intent&fontSize=48&fontColor=f8fafc&fontAlignY=35&animation=fadeIn" width="100%" alt="Build With Intent" />
 
-  <h1>Raven9779</h1>
+  <h1>Raven</h1>
   <p><strong>Full-stack engineer</strong></p>
   <p><sub>从界面到部署，把产品做成可运行的系统。</sub></p>
 </div>
@@ -28,5 +28,5 @@
 ---
 
 <p align="center">
-  <img src="assets/profile-fingerprint.svg" width="100%" alt="A deterministic profile fingerprint derived from the hexadecimal characters in Raven9779." />
+  <img src="assets/profile-fingerprint.svg" width="100%" alt="A deterministic profile fingerprint derived from the hexadecimal characters in the profile identifier." />
 </p>
