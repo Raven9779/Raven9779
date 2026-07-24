@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" role="img" aria-labelledby="fingerprint-title fingerprint-description">
-  <title id="fingerprint-title">Raven9779 profile fingerprint</title>
-  <desc id="fingerprint-description">A deterministic eight by nine bit signature derived from the ASCII bytes in the name Raven9779.</desc>
+  <title id="fingerprint-title">Profile signature</title>
+  <desc id="fingerprint-description">A deterministic eight by nine bit signature derived from the ASCII bytes in the profile identifier.</desc>
   <rect width="720" height="210" rx="14" fill="#091216" />
   <path d="M20 0V210M40 0V210M60 0V210M80 0V210M100 0V210M120 0V210M140 0V210M160 0V210M180 0V210M200 0V210M220 0V210M240 0V210M260 0V210M280 0V210M300 0V210M320 0V210M340 0V210M360 0V210M380 0V210M400 0V210M420 0V210M440 0V210M460 0V210M480 0V210M500 0V210M520 0V210M540 0V210M560 0V210M580 0V210M600 0V210M620 0V210M640 0V210M660 0V210M680 0V210M700 0V210M0 20H720M0 40H720M0 60H720M0 80H720M0 100H720M0 120H720M0 140H720M0 160H720M0 180H720M0 200H720" fill="none" stroke="#8aa0aa" stroke-opacity=".07" />
   <rect x="1" y="1" width="718" height="208" rx="13" fill="none" stroke="#5eead4" stroke-opacity=".34" />
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="28" y="36" fill="#fbbf24" font-size="18" font-weight="700" letter-spacing="1.1">RAVEN SIGNATURE</text>
+    <text x="28" y="36" fill="#fbbf24" font-size="18" font-weight="700" letter-spacing="1.1">SIGNATURE</text>
     <text x="28" y="70" fill="#e6f4ef" font-size="30" font-weight="700">raven9779</text>
     <text x="28" y="98" fill="#91a9a5" font-size="15">HEX // 52 61 76 65 6E 39 37 37 39</text>
     <path d="M28 122H278" stroke="#8aa0aa" stroke-opacity=".28" />
